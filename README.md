@@ -17,7 +17,7 @@ Official open-source browser companion and public **CC BY 4.0** short-form AI vi
 | Directory | Contents | License |
 | :--- | :--- | :--- |
 | [`extension/`](./extension) | Store-compliant **Manifest V3** Chrome & Edge Extension (`permissions: ["contextMenus"]` only, zero host permissions, zero content scripts, bilingual `en` + `zh_CN`). | MIT |
-| [`dataset/public-trends-2026-11.json`](./dataset/public-trends-2026-11.json) | Sanitized snapshot of **45 ranked single-photo AI video & restyle clusters** distilled from **556** tracked short-form formats (**352,433,822** cumulative views). | CC BY 4.0 |
+| [`dataset/public-trends-2026-11.json`](./dataset/public-trends-2026-11.json) | Sanitized snapshot of **72 ranked single-photo AI video & restyle clusters** distilled from **573** tracked short-form formats (**386,196,564** cumulative views). | CC BY 4.0 |
 | [`docs/`](./docs) | Static HTML documentation & interactive trend reference published via GitHub Pages. | MIT |
 
 ---
@@ -44,20 +44,20 @@ Official open-source browser companion and public **CC BY 4.0** short-form AI vi
 
 ## 3. 2026 Viral AI Photo-to-Video Trend Dataset (`CC BY 4.0`)
 
-Snapshot date: **`2026-11-17`** · Scanned formats: **`556`** · Single-photo eligible clusters: **`348`** · Combined 24h view delta: **`+9,181,222`**
+Snapshot date: **`2026-11-18`** · Scanned formats: **`573`** · Single-photo eligible clusters: **`396`** · Combined 24h view delta: **`+8,060,223`**
 
 | Rank | Format Cluster | Category | 24h View Delta | Cumulative Views | Live Template |
 | :--- | :--- | :--- | ---: | ---: | :--- |
-| #1 | Deck the Halls Holiday Living-Room Dance (`#homealone`) | `dance-motion` | +1,198,672 | 9,770,000 | [Try Workflow](https://angrydance.com/effects/ai-christmas-photo) |
-| #2 | Gothic Vampire Chapel Transformation (`#vampirediaries`) | `photo-to-video` | +470,057 | 29,660,000 | [Try Workflow](https://angrydance.com/tools/image-to-video) |
-| #3 | Surreal Miniature & Celebrity Entrance Clips (`#creercette`) | `photo-to-video` | +851,624 | 8,660,000 | [Try Workflow](https://angrydance.com/tools/image-to-video) |
-| #4 | Hibidi Skibidi Beat-Sync Meme Clip (`#hibidiskibidi`) | `photo-to-video` | +829,751 | 2,450,000 | [Try Workflow](https://angrydance.com/tools/image-to-video) |
-| #5 | Open-World Action Loading Screen Intro (`#grandtheftauto6`) | `photo-to-video` | +734,134 | 734,000 | [Try Workflow](https://angrydance.com/tools/image-to-video) |
-| #6 | Wassup Morphing Portrait Transition (`#minutewassup`) | `photo-to-video` | +702,747 | 2,960,000 | [Try Workflow](https://angrydance.com/tools/image-to-video) |
-| #7 | Savanna Lion Riding Video (`#lionriding`) | `photo-to-video` | +592,875 | 3,310,000 | [Try Workflow](https://angrydance.com/effects/lion-riding-ai) |
-| #8 | Stadium Goal Celebration Highlight (`#football`) | `photo-to-video` | +237,082 | 36,500,000 | [Try Workflow](https://angrydance.com/tools/image-to-video) |
-| #9 | Colored Sweater B&W Portrait (`#coloredsweater`) | `photo-restyle` | +537,179 | 1,950,000 | [Try Workflow](https://angrydance.com/effects/colored-sweater-ai) |
-| #10 | Self-Embrace Healing Sketch (`#timismo`) | `photo-restyle` | +401,050 | 3,390,000 | [Try Workflow](https://angrydance.com/effects/ai-hug-video) |
+| #1 | Gothic Vampire Chapel Transformation (`#vampirediaries`) | `photo-to-video` | +470,057 | 29,660,000 | [Try Workflow](https://angrydance.com/tools/image-to-video) |
+| #2 | Surreal Miniature & Blister-Box Entrance Clips (`#creercette`) | `photo-to-video` | +851,624 | 8,660,000 | [Try Workflow](https://angrydance.com/effects/ai-action-figure-video) |
+| #3 | Hibidi Skibidi Beat-Sync Meme Clip (`#hibidiskibidi`) | `photo-to-video` | +829,751 | 2,450,000 | [Try Workflow](https://angrydance.com/effects/angry-dance) |
+| #4 | Open-World Action Loading Screen Intro (`#grandtheftauto6`) | `photo-to-video` | +734,134 | 734,000 | [Try Workflow](https://angrydance.com/tools/image-to-video) |
+| #5 | Wassup Bass-Drop Groove Transition (`#minutewassup`) | `photo-to-video` | +702,747 | 2,960,000 | [Try Workflow](https://angrydance.com/effects/give-it-all-to-me-ai) |
+| #6 | Savanna Lion Riding Video (`#lionriding`) | `photo-to-video` | +592,875 | 3,310,000 | [Try Workflow](https://angrydance.com/effects/lion-riding-ai) |
+| #7 | Stadium Goal Celebration Highlight (`#football`) | `photo-to-video` | +237,082 | 36,500,000 | [Try Workflow](https://angrydance.com/tools/image-to-video) |
+| #8 | Colored Sweater B&W Portrait (`#coloredsweater`) | `photo-restyle` | +537,179 | 1,950,000 | [Try Workflow](https://angrydance.com/effects/colored-sweater-ai) |
+| #9 | Self-Embrace Healing Sketch (Abrazo Propio) (`#timismo`) | `photo-restyle` | +401,050 | 3,390,000 | [Try Workflow](https://angrydance.com/effects/self-hug-sketch-ai) |
+| #10 | Holiday Sweater & Tangled-Lights Pet Portrait (`#christmas`) | `dance-motion` | +243,790 | 2,410,000 | [Try Workflow](https://angrydance.com/effects/christmas-pet-ai) |
 
 > Explore all 45 ranked clusters with live category filters and instant studio launch at **<https://angrydance.com/trends>**.
 

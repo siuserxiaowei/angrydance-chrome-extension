@@ -1,61 +1,24 @@
 {
-  "version": 1,
-  "updatedAt": "2026-11-17T00:00:00Z",
+  "version": 2,
+  "updatedAt": "2026-11-18T00:00:00Z",
   "summary": {
-    "reportDate": "2026-11-17",
-    "totalTrendsScanned": 556,
-    "photoEligibleClusters": 348,
-    "rankedCount": 45,
-    "combined24hDelta": 9181222,
-    "combinedTotalViews": 352433822,
-    "combinedCreatorAccounts": 2267,
-    "directEffectCount": 15,
+    "reportDate": "2026-11-18",
+    "totalTrendsScanned": 573,
+    "photoEligibleClusters": 396,
+    "rankedCount": 72,
+    "combined24hDelta": 8060223,
+    "combinedTotalViews": 386196564,
+    "combinedCreatorAccounts": 2554,
+    "directEffectCount": 40,
     "categoryCounts": {
-      "photo-to-video": 15,
-      "photo-restyle": 15,
-      "dance-motion": 15
+      "photo-to-video": 34,
+      "photo-restyle": 21,
+      "dance-motion": 17
     },
     "rankingFormula": "24h View Delta + (Active Creator Accounts × 3,000)",
     "license": "CC BY 4.0"
   },
   "trends": [
-    {
-      "id": "homealone",
-      "trendKey": "homealone",
-      "hashtag": "#homealone",
-      "aliases": [],
-      "category": "dance-motion",
-      "categoryRank": 1,
-      "signal": "hot",
-      "isNew": true,
-      "delta24h": 1198672,
-      "totalViews": 9770000,
-      "creatorAccounts": 15,
-      "momentumScore": 1243672,
-      "firstSeen": {
-        "hoursAgo": 48,
-        "en": "2 days ago",
-        "zh": "2 天前"
-      },
-      "title": {
-        "en": "Deck the Halls Holiday Living-Room Dance",
-        "zh": "圣诞客厅欢乐群舞短片"
-      },
-      "description": {
-        "en": "Explosive holiday trend (+1.2M views in 24h) turning a single photo into a festive living-room Christmas dance surrounded by twinkling lights.",
-        "zh": "24 小时狂飙近 120 万播放的圣诞爆款玩法，上传照片即可融入彩灯闪烁的温馨客厅跳起节日欢快舞蹈"
-      },
-      "cta": {
-        "url": "/effects/ai-christmas-photo",
-        "kind": "direct-effect",
-        "label": {
-          "en": "Try AI Christmas Photo",
-          "zh": "生成 AI 圣诞写真"
-        },
-        "previewImage": "/samples/ai-christmas-photo.jpg"
-      },
-      "overallRank": 1
-    },
     {
       "id": "vampire-diaries",
       "trendKey": "vampire diaries",
@@ -90,7 +53,7 @@
           "zh": "用图生视频制作"
         }
       },
-      "overallRank": 2
+      "overallRank": 1
     },
     {
       "id": "creer-cette",
@@ -111,22 +74,23 @@
         "zh": "31 天前"
       },
       "title": {
-        "en": "Surreal Miniature & Celebrity Entrance Clips",
-        "zh": "超现实趣味出场特效合集"
+        "en": "Surreal Miniature & Blister-Box Entrance Clips",
+        "zh": "超现实微缩与破盒出场特效"
       },
       "description": {
-        "en": "French-speaking TikTok wave turning a static selfie into surreal micro-scenes like walking on giant banana leaves, red-carpet arrivals, or summoning flying cars.",
-        "zh": "法语区流行的超现实图生视频玩法，上传一张照片即可生成走上巨型芭蕉叶、红毯闪光灯出场或召唤飞行汽车等奇幻短片"
+        "en": "French-speaking TikTok wave turning a static selfie into surreal micro-scenes like blister-pack toy walk-outs, giant banana leaves, or red-carpet arrivals.",
+        "zh": "法语区流行的超现实图生视频玩法，上传一张照片即可生成微缩玩具破盒、巨型芭蕉叶漫步或红毯闪光灯出场短片"
       },
       "cta": {
-        "url": "/tools/image-to-video",
-        "kind": "studio-tool",
+        "url": "/effects/ai-action-figure-video",
+        "kind": "direct-effect",
         "label": {
-          "en": "Animate Photo in Studio",
-          "zh": "用图生视频制作"
-        }
+          "en": "Try Action Figure Video",
+          "zh": "做吸塑手办破盒"
+        },
+        "previewImage": "/samples/ai-action-figure-video.jpg"
       },
-      "overallRank": 3
+      "overallRank": 2
     },
     {
       "id": "hibidi-skibidi",
@@ -151,18 +115,19 @@
         "zh": "Hibidi Skibidi 魔性卡点短片"
       },
       "description": {
-        "en": "A fast-rising meme format where one portrait is animated into a 10–15 second expressive facial-motion clip timed to viral comedic audio.",
-        "zh": "上传一张人物照片，生成 10–15 秒带魔性表情律动与节奏卡点的搞笑短视频"
+        "en": "A fast-rising meme format where one portrait is animated into an expressive facial-motion and stomp clip timed to viral comedic audio.",
+        "zh": "上传一张人物照片，生成带魔性表情律动与节奏卡点的搞笑短视频"
       },
       "cta": {
-        "url": "/tools/image-to-video",
-        "kind": "studio-tool",
+        "url": "/effects/angry-dance",
+        "kind": "direct-effect",
         "label": {
-          "en": "Animate Photo in Studio",
-          "zh": "用图生视频制作"
-        }
+          "en": "Try Angry Dance AI",
+          "zh": "拍同款愤怒之舞"
+        },
+        "previewImage": "/samples/angry-dance.jpg"
       },
-      "overallRank": 4
+      "overallRank": 3
     },
     {
       "id": "grand-theft-auto6",
@@ -198,7 +163,7 @@
           "zh": "用图生视频制作"
         }
       },
-      "overallRank": 5
+      "overallRank": 4
     },
     {
       "id": "minute-wassup",
@@ -219,22 +184,23 @@
         "zh": "19 天前"
       },
       "title": {
-        "en": "Wassup Morphing Portrait Transition",
-        "zh": "Wassup 动态变形卡点视频"
+        "en": "Wassup Bass-Drop Groove Transition",
+        "zh": "Wassup 街头重低音律动短片"
       },
       "description": {
-        "en": "Animates a still portrait or short clip with stylized morphing motion effects synced to upbeat throwback hip-hop edits.",
-        "zh": "上传一张照片，生成带有夸张动画变形与复古街头节奏感的趣味短视频"
+        "en": "Animates a still portrait with confident hip-hop shoulder-bounce and morphing motion synced to throwback bass-heavy edits.",
+        "zh": "上传一张照片，生成带有街头说唱抖肩律动与节奏变形效果的趣味短视频"
       },
       "cta": {
-        "url": "/tools/image-to-video",
-        "kind": "studio-tool",
+        "url": "/effects/give-it-all-to-me-ai",
+        "kind": "direct-effect",
         "label": {
-          "en": "Animate Photo in Studio",
-          "zh": "用图生视频制作"
-        }
+          "en": "Try Give It All to Me AI",
+          "zh": "拍重低音抖肩舞"
+        },
+        "previewImage": "/samples/give-it-all-to-me-ai.jpg"
       },
-      "overallRank": 6
+      "overallRank": 5
     },
     {
       "id": "lion-riding",
@@ -271,7 +237,7 @@
         },
         "previewImage": "/samples/lion-riding-ai.jpg"
       },
-      "overallRank": 7
+      "overallRank": 6
     },
     {
       "id": "football",
@@ -307,7 +273,7 @@
           "zh": "用图生视频制作"
         }
       },
-      "overallRank": 8
+      "overallRank": 7
     },
     {
       "id": "colored-sweater",
@@ -344,7 +310,7 @@
         },
         "previewImage": "/samples/colored-sweater-ai.jpg"
       },
-      "overallRank": 9
+      "overallRank": 8
     },
     {
       "id": "ti-mismo",
@@ -365,22 +331,23 @@
         "zh": "3 天前"
       },
       "title": {
-        "en": "Self-Embrace Healing Sketch",
-        "zh": "自我拥抱治愈系素描照"
+        "en": "Self-Embrace Healing Sketch (Abrazo Propio)",
+        "zh": "素描自我拥抱治愈写真"
       },
       "description": {
-        "en": "Generates a warm, emotional portrait where an illustrated sketch version of yourself hugs the real you—celebrating self-acceptance.",
-        "zh": "上传一张自拍照，生成暖色调治愈系画面，展现自己温暖拥抱自己的接纳感"
+        "en": "Over 3.39M views across 58+ creators: blends photorealism and graphite pencil sketch so a hand-drawn you hugs the full-color real you from behind.",
+        "zh": "累计超 339 万播放的治愈热梗：保留真人全彩五官肤色，同时让黑白铅笔素描版的自己从背后温柔环抱真我"
       },
       "cta": {
-        "url": "/effects/ai-hug-video",
+        "url": "/effects/self-hug-sketch-ai",
         "kind": "direct-effect",
         "label": {
-          "en": "Try AI Hug Video",
-          "zh": "生成 AI 拥抱视频"
-        }
+          "en": "Try Self Hug Sketch AI",
+          "zh": "生成素描自我拥抱"
+        },
+        "previewImage": "/samples/self-hug-sketch-ai.jpg"
       },
-      "overallRank": 10
+      "overallRank": 9
     },
     {
       "id": "christmas",
@@ -388,7 +355,7 @@
       "hashtag": "#christmas",
       "aliases": ["halls"],
       "category": "dance-motion",
-      "categoryRank": 2,
+      "categoryRank": 1,
       "signal": "rising",
       "isNew": true,
       "delta24h": 243790,
@@ -401,23 +368,23 @@
         "zh": "12 天前"
       },
       "title": {
-        "en": "Snowy Holiday Sweater Portrait & Clip",
-        "zh": "飘雪圣诞树节日变装玩法"
+        "en": "Holiday Sweater & Tangled-Lights Pet Portrait",
+        "zh": "圣诞毛衣与萌宠缠彩灯写真"
       },
       "description": {
-        "en": "Seasonal creator favorite converting selfies into cozy holiday sweater scenes with falling snow, warm string lights, and festive motion.",
-        "zh": "圣诞季高人气玩法，把日常自拍一键换成圣诞毛衣、飘雪窗景与暖光圣诞树氛围大片"
+        "en": "Seasonal creator favorite converting people and pets into cozy holiday portraits with falling snow, antlers, and glowing string lights.",
+        "zh": "圣诞季高人气玩法，支持生成温馨人类圣诞毛衣雪景照，或猫狗缠彩灯拆礼物的搞笑圣诞贺卡"
       },
       "cta": {
-        "url": "/effects/ai-christmas-photo",
+        "url": "/effects/christmas-pet-ai",
         "kind": "direct-effect",
         "label": {
-          "en": "Try AI Christmas Photo",
-          "zh": "生成 AI 圣诞写真"
+          "en": "Try Christmas Pet AI",
+          "zh": "拍圣诞萌宠写真"
         },
-        "previewImage": "/samples/ai-christmas-photo.jpg"
+        "previewImage": "/samples/christmas-pet-ai.jpg"
       },
-      "overallRank": 11
+      "overallRank": 10
     },
     {
       "id": "lamine-yamal",
@@ -453,7 +420,7 @@
           "zh": "用图生视频制作"
         }
       },
-      "overallRank": 12
+      "overallRank": 11
     },
     {
       "id": "window-peeper",
@@ -489,7 +456,7 @@
           "zh": "用图生视频制作"
         }
       },
-      "overallRank": 13
+      "overallRank": 12
     },
     {
       "id": "king-jin",
@@ -525,7 +492,7 @@
           "zh": "用图生视频制作"
         }
       },
-      "overallRank": 14
+      "overallRank": 13
     },
     {
       "id": "needforspeed",
@@ -546,22 +513,23 @@
         "zh": "3 天前"
       },
       "title": {
-        "en": "Street Drift Car Cinema Clip",
-        "zh": "街头漂移赛车电影短片"
+        "en": "Street Car Cinema & Miniature Crew Clip",
+        "zh": "爱车电影大片与微缩洗车特效"
       },
       "description": {
-        "en": "Car owners upload a parked vehicle photo and turn it into a high-speed neon street drift sequence with slow-motion motion blur.",
-        "zh": "车主上传一张爱车静态照，AI 自动生成高速追逐、弯道漂移与慢镜尾灯拉丝的电影感赛车短片"
+        "en": "Car owners upload a parked vehicle photo to generate neon street drift sequences or miniature hard-hat crews foam-washing their real ride.",
+        "zh": "车主上传一张爱车静态照，生成街头漂移大片或迷你安全帽小人爬梯子泡沫洗真车的创意视频"
       },
       "cta": {
-        "url": "/tools/image-to-video",
-        "kind": "studio-tool",
+        "url": "/effects/mini-workers-car-wash-ai",
+        "kind": "direct-effect",
         "label": {
-          "en": "Animate Photo in Studio",
-          "zh": "用图生视频制作"
-        }
+          "en": "Try Mini Car Wash AI",
+          "zh": "拍迷你小人洗车"
+        },
+        "previewImage": "/samples/mini-workers-car-wash-ai.jpg"
       },
-      "overallRank": 15
+      "overallRank": 14
     },
     {
       "id": "aibaby",
@@ -569,13 +537,13 @@
       "hashtag": "#aibaby",
       "aliases": [],
       "category": "dance-motion",
-      "categoryRank": 3,
+      "categoryRank": 2,
       "signal": "hot",
       "isNew": true,
       "delta24h": 28700,
       "totalViews": 58370000,
-      "creatorAccounts": 132,
-      "momentumScore": 424700,
+      "creatorAccounts": 133,
+      "momentumScore": 427700,
       "firstSeen": {
         "hoursAgo": 696,
         "en": "29 days ago",
@@ -598,7 +566,7 @@
         },
         "previewImage": "/samples/ai-baby-dance.jpg"
       },
-      "overallRank": 16
+      "overallRank": 15
     },
     {
       "id": "maquillaje-que-esta-rompiendo",
@@ -634,7 +602,7 @@
           "zh": "用图生视频制作"
         }
       },
-      "overallRank": 17
+      "overallRank": 16
     },
     {
       "id": "sidemen",
@@ -670,7 +638,7 @@
           "zh": "用图生视频制作"
         }
       },
-      "overallRank": 18
+      "overallRank": 17
     },
     {
       "id": "pick14daychallenge",
@@ -691,22 +659,23 @@
         "zh": "11 天前"
       },
       "title": {
-        "en": "Nostalgic Lyric Card Video",
-        "zh": "怀旧歌词氛围感纪念短片"
+        "en": "Warm Couple Embrace & Lyric Clip",
+        "zh": "双人温暖相拥纪念短片"
       },
       "description": {
-        "en": "Animates couple or solo portraits with soft film grain and romantic lyric motion for multi-day creator posting challenges.",
-        "zh": "将单人或合照转化为带柔和胶片颗粒与浪漫情绪律动的纪念短视频"
+        "en": "Animates couple or solo portraits into tender, romantic motion clips for multi-day relationship and memory posting challenges.",
+        "zh": "将合照或纪念照转化为自然转身微笑拥抱的浪漫情绪短视频"
       },
       "cta": {
-        "url": "/tools/image-to-video",
-        "kind": "studio-tool",
+        "url": "/effects/ai-hug-video",
+        "kind": "direct-effect",
         "label": {
-          "en": "Animate Photo in Studio",
-          "zh": "用图生视频制作"
-        }
+          "en": "Try AI Hug Video",
+          "zh": "生成 AI 拥抱视频"
+        },
+        "previewImage": "/samples/ai-hug-video.jpg"
       },
-      "overallRank": 19
+      "overallRank": 18
     },
     {
       "id": "gta-6",
@@ -742,7 +711,7 @@
           "zh": "用图生视频制作"
         }
       },
-      "overallRank": 20
+      "overallRank": 19
     },
     {
       "id": "bulin-47",
@@ -750,7 +719,7 @@
       "hashtag": "#bulin47",
       "aliases": [],
       "category": "dance-motion",
-      "categoryRank": 4,
+      "categoryRank": 3,
       "signal": "hot",
       "isNew": true,
       "delta24h": 0,
@@ -767,18 +736,19 @@
         "zh": "拉美街头抖肩说唱舞"
       },
       "description": {
-        "en": "High-energy Latin freestyle dance format (52M+ total views) animating any static character photo with signature shoulder-bounce choreography.",
-        "zh": "累计超 5213 万播放的热门拉美律动舞，让静态照片人物做出极具感染力的标志性抖肩与说唱手势"
+        "en": "High-energy freestyle dance format (52M+ total views) animating any static character photo with confident shoulder-bounce choreography.",
+        "zh": "累计超 5213 万播放的热门街头律动舞，让静态照片人物做出极具感染力的标志性抖肩与说唱手势"
       },
       "cta": {
-        "url": "/tools/image-to-video",
-        "kind": "studio-tool",
+        "url": "/effects/give-it-all-to-me-ai",
+        "kind": "direct-effect",
         "label": {
-          "en": "Animate Photo in Studio",
-          "zh": "用图生视频制作"
-        }
+          "en": "Try Give It All to Me AI",
+          "zh": "拍重低音抖肩舞"
+        },
+        "previewImage": "/samples/give-it-all-to-me-ai.jpg"
       },
-      "overallRank": 21
+      "overallRank": 20
     },
     {
       "id": "michael-jackson",
@@ -786,7 +756,7 @@
       "hashtag": "#michaeljackson",
       "aliases": [],
       "category": "dance-motion",
-      "categoryRank": 5,
+      "categoryRank": 4,
       "signal": "rising",
       "isNew": true,
       "delta24h": 6921,
@@ -799,22 +769,23 @@
         "zh": "17 天前"
       },
       "title": {
-        "en": "Retro Zombie Pop Choreography Clip",
-        "zh": "复古僵尸齐舞卡点视频"
+        "en": "Spooky Night Zombie Ambush & Dance",
+        "zh": "暗夜绿眼僵尸变身与齐舞"
       },
       "description": {
-        "en": "Animates a single portrait into synchronized retro spooky dance moves with dramatic night-fog lighting.",
-        "zh": "将人物照片驱动为戏剧感十足的复古暗夜节拍齐舞短视频"
+        "en": "Animates portraits or pets with dramatic night-horror lighting, glowing eyes, and sudden spooky motion.",
+        "zh": "结合戏剧感暗夜惊悚灯光与发光双眼特效，把静态照片驱动为反差十足的僵尸动效短片"
       },
       "cta": {
-        "url": "/tools/image-to-video",
-        "kind": "studio-tool",
+        "url": "/effects/zombie-pet-ai",
+        "kind": "direct-effect",
         "label": {
-          "en": "Animate Photo in Studio",
-          "zh": "用图生视频制作"
-        }
+          "en": "Try Zombie Pet AI",
+          "zh": "试试僵尸宠物特效"
+        },
+        "previewImage": "/samples/zombie-pet-ai.jpg"
       },
-      "overallRank": 22
+      "overallRank": 21
     },
     {
       "id": "pranking-my-friends-with-the-bob-filter",
@@ -851,7 +822,7 @@
         },
         "previewImage": "/samples/ai-caricature.jpg"
       },
-      "overallRank": 23
+      "overallRank": 22
     },
     {
       "id": "no-scrubs",
@@ -859,7 +830,7 @@
       "hashtag": "#noscrubs",
       "aliases": [],
       "category": "dance-motion",
-      "categoryRank": 6,
+      "categoryRank": 5,
       "signal": "rising",
       "isNew": true,
       "delta24h": 134244,
@@ -887,7 +858,7 @@
           "zh": "用图生视频制作"
         }
       },
-      "overallRank": 24
+      "overallRank": 23
     },
     {
       "id": "jean-phil",
@@ -895,7 +866,7 @@
       "hashtag": "#jeanphil",
       "aliases": ["toc toc"],
       "category": "dance-motion",
-      "categoryRank": 7,
+      "categoryRank": 6,
       "signal": "rising",
       "isNew": true,
       "delta24h": 15,
@@ -921,9 +892,10 @@
         "label": {
           "en": "Try AI Muscle Generator",
           "zh": "体验 AI 肌肉生成"
-        }
+        },
+        "previewImage": "/samples/ai-muscle-generator.jpg"
       },
-      "overallRank": 25
+      "overallRank": 24
     },
     {
       "id": "en-bas",
@@ -931,7 +903,7 @@
       "hashtag": "#enbas",
       "aliases": ["post super trendy", "reproduire facilement les mouvements"],
       "category": "dance-motion",
-      "categoryRank": 8,
+      "categoryRank": 7,
       "signal": "rising",
       "isNew": true,
       "delta24h": 0,
@@ -944,22 +916,23 @@
         "zh": "33 天前"
       },
       "title": {
-        "en": "French Reels Viral Routine",
-        "zh": "法语区热门跟拍卡点舞"
+        "en": "Crossed-Arms Tsundere Pout & Stomp",
+        "zh": "傲娇抱胸鼓腮跺脚舞"
       },
       "description": {
-        "en": "One-photo dance transfer format popular across French TikTok and Instagram Reels for effortless choreographed clips.",
-        "zh": "在法语 TikTok 与 Reels 流行的单图舞蹈玩法，保持人物穿搭不变完成整套热舞动作"
+        "en": "Turns a half-body portrait or couple selfie into an adorably dramatic crossed-arms pout, head-turn 'hmph!', and rhythmic foot stomp.",
+        "zh": "把半身自拍或穿搭照驱动为双手抱胸、鼓腮偏头“哼！”加踩点跺脚的可爱赌气短视频"
       },
       "cta": {
-        "url": "/tools/image-to-video",
-        "kind": "studio-tool",
+        "url": "/effects/tsundere-hmph-stomp-ai",
+        "kind": "direct-effect",
         "label": {
-          "en": "Animate Photo in Studio",
-          "zh": "用图生视频制作"
-        }
+          "en": "Try Tsundere Stomp AI",
+          "zh": "拍傲娇跺脚舞"
+        },
+        "previewImage": "/samples/tsundere-hmph-stomp-ai.jpg"
       },
-      "overallRank": 26
+      "overallRank": 25
     },
     {
       "id": "mermaid",
@@ -972,8 +945,8 @@
       "isNew": true,
       "delta24h": 144422,
       "totalViews": 854000,
-      "creatorAccounts": 6,
-      "momentumScore": 162422,
+      "creatorAccounts": 7,
+      "momentumScore": 165422,
       "firstSeen": {
         "hoursAgo": 480,
         "en": "20 days ago",
@@ -996,7 +969,7 @@
         },
         "previewImage": "/samples/ai-mermaid-filter.jpg"
       },
-      "overallRank": 27
+      "overallRank": 26
     },
     {
       "id": "sirene",
@@ -1009,8 +982,8 @@
       "isNew": true,
       "delta24h": 141698,
       "totalViews": 467000,
-      "creatorAccounts": 4,
-      "momentumScore": 153698,
+      "creatorAccounts": 5,
+      "momentumScore": 156698,
       "firstSeen": {
         "hoursAgo": 72,
         "en": "3 days ago",
@@ -1022,7 +995,7 @@
       },
       "description": {
         "en": "French-tagged variant of the mermaid portrait wave emphasizing bioluminescent water particles and ethereal ocean styling.",
-        "zh": "法语区走红的深海人鱼公主风格改图，突出梦幻荧光水母粒子与深海仙气妆造"
+        "zh": "法语区走红的深海人鱼公主风格改图，突出梦幻荧光粒子与深海仙气妆造"
       },
       "cta": {
         "url": "/effects/ai-mermaid-filter",
@@ -1033,7 +1006,7 @@
         },
         "previewImage": "/samples/ai-mermaid-filter.jpg"
       },
-      "overallRank": 28
+      "overallRank": 27
     },
     {
       "id": "swaydance",
@@ -1041,8 +1014,8 @@
       "hashtag": "#swaydance",
       "aliases": ["babydance"],
       "category": "dance-motion",
-      "categoryRank": 9,
-      "signal": "new",
+      "categoryRank": 8,
+      "signal": "rising",
       "isNew": true,
       "delta24h": 9898,
       "totalViews": 3910000,
@@ -1054,23 +1027,23 @@
         "zh": "28 天前"
       },
       "title": {
-        "en": "Sway & Baby Bounce Dance",
-        "zh": "摇摆萌娃节奏舞"
+        "en": "Sway & Sassy Cat/Baby Groove",
+        "zh": "丝滑扭胯摇摆节奏舞"
       },
       "description": {
-        "en": "Smooth side-to-side sway animation widely used on baby and portrait photos for cheerful vertical clips.",
-        "zh": "常用于宝宝与呆萌人像照片的左右摇摆舞蹈玩法，动作灵动自然"
+        "en": "Smooth side-to-side hip-sway animation widely used on baby portraits and grumpy household cats.",
+        "zh": "在萌娃与高冷猫咪照片上广受欢迎的丝滑左右扭胯摇摆舞，反差萌拉满"
       },
       "cta": {
-        "url": "/effects/ai-baby-dance",
+        "url": "/effects/cat-dance-ai",
         "kind": "direct-effect",
         "label": {
-          "en": "Try AI Baby Dance",
-          "zh": "生成 AI 宝宝跳舞"
+          "en": "Try Cat Dance AI",
+          "zh": "拍同款猫咪跳舞"
         },
-        "previewImage": "/samples/ai-baby-dance.jpg"
+        "previewImage": "/samples/cat-dance-ai.jpg"
       },
-      "overallRank": 29
+      "overallRank": 28
     },
     {
       "id": "baile",
@@ -1078,7 +1051,7 @@
       "hashtag": "#baile",
       "aliases": [],
       "category": "dance-motion",
-      "categoryRank": 10,
+      "categoryRank": 9,
       "signal": "hot",
       "isNew": true,
       "delta24h": 2,
@@ -1091,22 +1064,23 @@
         "zh": "30 天前"
       },
       "title": {
-        "en": "Latin Beat One-Photo Dance",
-        "zh": "拉丁热曲一键跳舞模板"
+        "en": "Baile Angry Stomp & Finger-Point Dance",
+        "zh": "愤怒指人踩点跺脚舞 (Baile Angry)"
       },
       "description": {
-        "en": "Over 33.8M cumulative views across Spanish-language TikTok turning static portraits into upbeat Latin dance routines.",
-        "zh": "西语区累计超 3387 万播放的热门舞蹈玩法，一张静态照片即可跳出欢快拉丁舞步"
+        "en": "Over 33.8M cumulative views: pairs a hilarious furious scowl and finger-pointing attitude with heavy rhythmic stomps from 1 photo.",
+        "zh": "累计超 3387 万播放的招牌情绪舞：皱眉瞪眼、指人握拳配魔性重踏舞步，越生气越好笑"
       },
       "cta": {
-        "url": "/tools/image-to-video",
-        "kind": "studio-tool",
+        "url": "/effects/angry-dance",
+        "kind": "direct-effect",
         "label": {
-          "en": "Animate Photo in Studio",
-          "zh": "用图生视频制作"
-        }
+          "en": "Try Angry Dance AI",
+          "zh": "拍同款愤怒之舞"
+        },
+        "previewImage": "/samples/angry-dance.jpg"
       },
-      "overallRank": 30
+      "overallRank": 29
     },
     {
       "id": "gangnam-style",
@@ -1114,8 +1088,8 @@
       "hashtag": "#gangnamstyle",
       "aliases": [],
       "category": "dance-motion",
-      "categoryRank": 11,
-      "signal": "new",
+      "categoryRank": 10,
+      "signal": "rising",
       "isNew": true,
       "delta24h": 0,
       "totalViews": 3460000,
@@ -1142,7 +1116,7 @@
           "zh": "用图生视频制作"
         }
       },
-      "overallRank": 31
+      "overallRank": 30
     },
     {
       "id": "van-damme",
@@ -1150,8 +1124,8 @@
       "hashtag": "#vandamme",
       "aliases": [],
       "category": "dance-motion",
-      "categoryRank": 12,
-      "signal": "new",
+      "categoryRank": 11,
+      "signal": "rising",
       "isNew": true,
       "delta24h": 0,
       "totalViews": 3220000,
@@ -1178,7 +1152,7 @@
           "zh": "用图生视频制作"
         }
       },
-      "overallRank": 32
+      "overallRank": 31
     },
     {
       "id": "bad-times",
@@ -1186,8 +1160,8 @@
       "hashtag": "#badtimes",
       "aliases": [],
       "category": "dance-motion",
-      "categoryRank": 13,
-      "signal": "new",
+      "categoryRank": 12,
+      "signal": "rising",
       "isNew": true,
       "delta24h": 0,
       "totalViews": 2300000,
@@ -1215,7 +1189,7 @@
         },
         "previewImage": "/samples/ai-baby-dance.jpg"
       },
-      "overallRank": 33
+      "overallRank": 32
     },
     {
       "id": "poner-aretes",
@@ -1224,7 +1198,7 @@
       "aliases": ["pusiera esto", "brackets en una"],
       "category": "photo-restyle",
       "categoryRank": 6,
-      "signal": "new",
+      "signal": "rising",
       "isNew": true,
       "delta24h": 0,
       "totalViews": 1240000,
@@ -1251,7 +1225,7 @@
           "zh": "去 AI 生图制作"
         }
       },
-      "overallRank": 34
+      "overallRank": 33
     },
     {
       "id": "ice-baby",
@@ -1259,8 +1233,8 @@
       "hashtag": "#icebaby",
       "aliases": [],
       "category": "dance-motion",
-      "categoryRank": 14,
-      "signal": "new",
+      "categoryRank": 13,
+      "signal": "rising",
       "isNew": true,
       "delta24h": 0,
       "totalViews": 728000,
@@ -1287,7 +1261,7 @@
           "zh": "用图生视频制作"
         }
       },
-      "overallRank": 35
+      "overallRank": 34
     },
     {
       "id": "iphone-kupi",
@@ -1295,7 +1269,7 @@
       "hashtag": "#iphonekupi",
       "aliases": [],
       "category": "dance-motion",
-      "categoryRank": 15,
+      "categoryRank": 14,
       "signal": "new",
       "isNew": true,
       "delta24h": 0,
@@ -1323,7 +1297,116 @@
           "zh": "用图生视频制作"
         }
       },
+      "overallRank": 35
+    },
+    {
+      "id": "homealone",
+      "trendKey": "homealone",
+      "hashtag": "#homealone",
+      "aliases": [],
+      "category": "dance-motion",
+      "categoryRank": 15,
+      "signal": "rising",
+      "isNew": true,
+      "delta24h": 86079,
+      "totalViews": 9860000,
+      "creatorAccounts": 15,
+      "momentumScore": 131079,
+      "firstSeen": {
+        "hoursAgo": 48,
+        "en": "2 days ago",
+        "zh": "2 天前"
+      },
+      "title": {
+        "en": "Deck the Halls Holiday Living-Room Dance",
+        "zh": "圣诞客厅欢乐群舞短片"
+      },
+      "description": {
+        "en": "Explosive holiday trend turning a single photo into a festive living-room Christmas dance surrounded by twinkling string lights.",
+        "zh": "单日暴涨超百万播放的圣诞爆款玩法，上传照片即可融入彩灯闪烁的温馨客厅跳起节日欢快舞蹈"
+      },
+      "cta": {
+        "url": "/effects/ai-christmas-photo",
+        "kind": "direct-effect",
+        "label": {
+          "en": "Try AI Christmas Photo",
+          "zh": "生成 AI 圣诞写真"
+        },
+        "previewImage": "/samples/ai-christmas-photo.jpg"
+      },
       "overallRank": 36
+    },
+    {
+      "id": "lady-gaga-s",
+      "trendKey": "lady gaga's",
+      "hashtag": "#ladygagas",
+      "aliases": [],
+      "category": "photo-to-video",
+      "categoryRank": 16,
+      "signal": "new",
+      "isNew": true,
+      "delta24h": 0,
+      "totalViews": 1260000,
+      "creatorAccounts": 36,
+      "momentumScore": 108000,
+      "firstSeen": {
+        "hoursAgo": 144,
+        "en": "6 days ago",
+        "zh": "6 天前"
+      },
+      "title": {
+        "en": "Supernatural Gothic Trio Crossover Clip",
+        "zh": "超自然暗黑古堡同框短片"
+      },
+      "description": {
+        "en": "Places a creator's uploaded portrait into a dramatic supernatural gothic drama scene with moody candlelit transitions.",
+        "zh": "上传个人照片生成暗黑超自然古堡氛围的多角色戏剧感同框短视频"
+      },
+      "cta": {
+        "url": "/tools/image-to-video",
+        "kind": "studio-tool",
+        "label": {
+          "en": "Animate Photo in Studio",
+          "zh": "用图生视频制作"
+        }
+      },
+      "overallRank": 37
+    },
+    {
+      "id": "burning-bridges",
+      "trendKey": "burning bridges",
+      "hashtag": "#burningbridges",
+      "aliases": [],
+      "category": "photo-to-video",
+      "categoryRank": 17,
+      "signal": "new",
+      "isNew": true,
+      "delta24h": 0,
+      "totalViews": 3660000,
+      "creatorAccounts": 35,
+      "momentumScore": 105000,
+      "firstSeen": {
+        "hoursAgo": 816,
+        "en": "34 days ago",
+        "zh": "34 天前"
+      },
+      "title": {
+        "en": "Cinematic Burning Bridge Walk-Away",
+        "zh": "火光断桥电影感转身大片"
+      },
+      "description": {
+        "en": "3.66M cumulative views: places a single portrait walking calmly away from a blazing bridge amid cinematic sparks and smoke.",
+        "zh": "累计 366 万播放的戏剧感大片：将人物照片融入火光与烟雾交织的燃烧断桥慢镜场景"
+      },
+      "cta": {
+        "url": "/tools/image-to-video",
+        "kind": "studio-tool",
+        "label": {
+          "en": "Animate Photo in Studio",
+          "zh": "用图生视频制作"
+        }
+      },
+      "overallRank": 38
     },
     {
       "id": "gratis-o-consejos",
@@ -1359,7 +1442,7 @@
           "zh": "去 AI 生图制作"
         }
       },
-      "overallRank": 37
+      "overallRank": 39
     },
     {
       "id": "google",
@@ -1395,7 +1478,7 @@
           "zh": "去 AI 生图制作"
         }
       },
-      "overallRank": 38
+      "overallRank": 40
     },
     {
       "id": "short-boyfriend",
@@ -1431,7 +1514,43 @@
           "zh": "去 AI 生图制作"
         }
       },
-      "overallRank": 39
+      "overallRank": 41
+    },
+    {
+      "id": "ballondor",
+      "trendKey": "ballondor",
+      "hashtag": "#ballondor",
+      "aliases": [],
+      "category": "photo-to-video",
+      "categoryRank": 18,
+      "signal": "new",
+      "isNew": true,
+      "delta24h": 0,
+      "totalViews": 6350000,
+      "creatorAccounts": 29,
+      "momentumScore": 87000,
+      "firstSeen": {
+        "hoursAgo": 576,
+        "en": "24 days ago",
+        "zh": "24 天前"
+      },
+      "title": {
+        "en": "Golden Trophy Stage Ceremony Clip",
+        "zh": "足球金奖颁奖台捧杯大片"
+      },
+      "description": {
+        "en": "6.35M views across sports fans turning a casual selfie into a spotlight gala trophy celebration clip.",
+        "zh": "累计 635 万播放的球迷热梗：上传自拍即可生成站在聚光灯颁奖典礼舞台举起金杯的高光短片"
+      },
+      "cta": {
+        "url": "/tools/image-to-video",
+        "kind": "studio-tool",
+        "label": {
+          "en": "Animate Photo in Studio",
+          "zh": "用图生视频制作"
+        }
+      },
+      "overallRank": 42
     },
     {
       "id": "caricature",
@@ -1468,7 +1587,44 @@
         },
         "previewImage": "/samples/ai-caricature.jpg"
       },
-      "overallRank": 40
+      "overallRank": 43
+    },
+    {
+      "id": "borde-infinito-en-rascacielos",
+      "trendKey": "borde infinito en rascacielos",
+      "hashtag": "#bordeinfinitoenrascacielos",
+      "aliases": [],
+      "category": "photo-to-video",
+      "categoryRank": 19,
+      "signal": "new",
+      "isNew": true,
+      "delta24h": 0,
+      "totalViews": 117000,
+      "creatorAccounts": 26,
+      "momentumScore": 78000,
+      "firstSeen": {
+        "hoursAgo": 312,
+        "en": "13 days ago",
+        "zh": "13 天前"
+      },
+      "title": {
+        "en": "100-Story Skyscraper Infinity Pool Drop Prank",
+        "zh": "百层摩天楼无边泳池火烈鸟滑落整蛊"
+      },
+      "description": {
+        "en": "Places a friend's photo onto a pink flamingo floatie tipping right over a 100-story rooftop infinity pool waterfall edge.",
+        "zh": "将照片人物放上百层摩天楼顶无边泳池边缘倾斜的粉色火烈鸟浮排，上演顺水流滑落的恐高整蛊大片"
+      },
+      "cta": {
+        "url": "/effects/infinity-pool-prank-ai",
+        "kind": "direct-effect",
+        "label": {
+          "en": "Try Infinity Pool Prank",
+          "zh": "拍高空泳池滑落"
+        },
+        "previewImage": "/samples/infinity-pool-prank-ai.jpg"
+      },
+      "overallRank": 44
     },
     {
       "id": "sweater",
@@ -1505,7 +1661,80 @@
         },
         "previewImage": "/samples/colored-sweater-ai.jpg"
       },
-      "overallRank": 41
+      "overallRank": 45
+    },
+    {
+      "id": "auto-real-detras",
+      "trendKey": "auto real detras",
+      "hashtag": "#autorealdetras",
+      "aliases": ["tu coche", "vehiculo miniatura crea"],
+      "category": "photo-to-video",
+      "categoryRank": 20,
+      "signal": "new",
+      "isNew": true,
+      "delta24h": 0,
+      "totalViews": 414000,
+      "creatorAccounts": 20,
+      "momentumScore": 60000,
+      "firstSeen": {
+        "hoursAgo": 264,
+        "en": "11 days ago",
+        "zh": "11 天前"
+      },
+      "title": {
+        "en": "Miniature Car & Tiny Crew Optical Illusion",
+        "zh": "真车微缩模型与小人洗车奇观"
+      },
+      "description": {
+        "en": "Spanish-speaking CarTok trend pairing a real parked car, truck, or bike with miniature scale effects and tiny toy detail crews.",
+        "zh": "西语车主圈热门玩法：保持真实爱车外观不变，加入微缩比例错觉或迷你工程小人互动"
+      },
+      "cta": {
+        "url": "/effects/mini-workers-car-wash-ai",
+        "kind": "direct-effect",
+        "label": {
+          "en": "Try Mini Car Wash AI",
+          "zh": "拍迷你小人洗车"
+        },
+        "previewImage": "/samples/mini-workers-car-wash-ai.jpg"
+      },
+      "overallRank": 46
+    },
+    {
+      "id": "inbetweeners",
+      "trendKey": "inbetweeners",
+      "hashtag": "#inbetweeners",
+      "aliases": [],
+      "category": "photo-to-video",
+      "categoryRank": 21,
+      "signal": "new",
+      "isNew": true,
+      "delta24h": 0,
+      "totalViews": 1220000,
+      "creatorAccounts": 18,
+      "momentumScore": 54000,
+      "firstSeen": {
+        "hoursAgo": 552,
+        "en": "23 days ago",
+        "zh": "23 天前"
+      },
+      "title": {
+        "en": "Brit-Com Slapstick Scene Cut",
+        "zh": "英式青春喜剧名场面卡点短片"
+      },
+      "description": {
+        "en": "Drops an uploaded friend portrait into awkward, fast-cut British teen-comedy misadventure scenes.",
+        "zh": "把朋友照片放进节奏轻快的英式青春喜剧尴尬名场面卡点视频中"
+      },
+      "cta": {
+        "url": "/tools/image-to-video",
+        "kind": "studio-tool",
+        "label": {
+          "en": "Animate Photo in Studio",
+          "zh": "用图生视频制作"
+        }
+      },
+      "overallRank": 47
     },
     {
       "id": "edicion",
@@ -1541,7 +1770,7 @@
           "zh": "去 AI 生图制作"
         }
       },
-      "overallRank": 42
+      "overallRank": 48
     },
     {
       "id": "titanic",
@@ -1562,12 +1791,49 @@
         "zh": "17 小时前"
       },
       "title": {
-        "en": "Sunset Ocean Liner Deck Portrait",
-        "zh": "落日邮轮甲板复古电影照"
+        "en": "Heart of the Ocean Sunset Liner Meme",
+        "zh": "夕阳游轮海洋之心蓝钻变装"
       },
       "description": {
-        "en": "Reimagines a portrait in a golden-hour vintage ocean liner bow scene with warm cinematic wind and ocean horizon lighting.",
-        "zh": "将个人照片融入金色夕阳下的复古远洋邮轮甲板场景，营造经典浪漫电影质感"
+        "en": "Reimagines any selfie (especially bearded friends!) at the bow of a golden-sunset vintage ocean liner holding up a sparkling blue heart sapphire.",
+        "zh": "将个人自拍融入金色夕阳下的复古远洋游轮船头，迎着海风深情举起巨型心形蓝宝石项链"
+      },
+      "cta": {
+        "url": "/effects/heart-of-the-ocean-ai",
+        "kind": "direct-effect",
+        "label": {
+          "en": "Try Heart of the Ocean AI",
+          "zh": "拍海洋之心蓝钻"
+        },
+        "previewImage": "/samples/heart-of-the-ocean-ai.jpg"
+      },
+      "overallRank": 49
+    },
+    {
+      "id": "fotograf",
+      "trendKey": "fotograf",
+      "hashtag": "#fotograf",
+      "aliases": [],
+      "category": "photo-restyle",
+      "categoryRank": 14,
+      "signal": "new",
+      "isNew": true,
+      "delta24h": 588,
+      "totalViews": 1270000,
+      "creatorAccounts": 13,
+      "momentumScore": 39588,
+      "firstSeen": {
+        "hoursAgo": 672,
+        "en": "28 days ago",
+        "zh": "28 天前"
+      },
+      "title": {
+        "en": "Editorial Portrait Variant Restyle",
+        "zh": "杂志感人像光影重绘"
+      },
+      "description": {
+        "en": "1.27M plays: transforms everyday portraits into crisp editorial studio variants while keeping facial identity intact.",
+        "zh": "累计 127 万播放：在保留人物真实五官的前提下重塑杂志棚拍光影与色调"
       },
       "cta": {
         "url": "/tools/ai-image-generator",
@@ -1577,7 +1843,190 @@
           "zh": "去 AI 生图制作"
         }
       },
-      "overallRank": 43
+      "overallRank": 50
+    },
+    {
+      "id": "se-tatue-mi",
+      "trendKey": "se tatue mi",
+      "hashtag": "#setatuemi",
+      "aliases": [],
+      "category": "photo-restyle",
+      "categoryRank": 15,
+      "signal": "new",
+      "isNew": true,
+      "delta24h": 0,
+      "totalViews": 2580000,
+      "creatorAccounts": 13,
+      "momentumScore": 39000,
+      "firstSeen": {
+        "hoursAgo": 144,
+        "en": "6 days ago",
+        "zh": "6 天前"
+      },
+      "title": {
+        "en": "Couple & Sleeve Ink Prank Photo",
+        "zh": "情侣纹身与逼真花臂整蛊照"
+      },
+      "description": {
+        "en": "2.58M views in 6 days: adds hyper-convincing portrait or fine-line sleeve ink onto casual photos to test partner and family reactions.",
+        "zh": "6 天斩获 258 万播放：在日常照片手臂或背部生成以假乱真的纹身图案，发给家人朋友看反应"
+      },
+      "cta": {
+        "url": "/effects/fake-tattoo-prank-ai",
+        "kind": "direct-effect",
+        "label": {
+          "en": "Try Fake Tattoo Prank",
+          "zh": "试逼真纹身整蛊"
+        },
+        "previewImage": "/samples/fake-tattoo-prank-ai.jpg"
+      },
+      "overallRank": 51
+    },
+    {
+      "id": "speed-scene",
+      "trendKey": "speed scene",
+      "hashtag": "#speedscene",
+      "aliases": [],
+      "category": "photo-to-video",
+      "categoryRank": 22,
+      "signal": "new",
+      "isNew": true,
+      "delta24h": 0,
+      "totalViews": 516000,
+      "creatorAccounts": 13,
+      "momentumScore": 39000,
+      "firstSeen": {
+        "hoursAgo": 72,
+        "en": "3 days ago",
+        "zh": "3 天前"
+      },
+      "title": {
+        "en": "Night Highway Drift Car Scene",
+        "zh": "暗夜公路超跑漂移大片"
+      },
+      "description": {
+        "en": "Turns a parked car snapshot into a neon midnight highway chase and drift sequence.",
+        "zh": "上传停放的汽车照片，生成霓虹夜景高速漂移与追逐镜头"
+      },
+      "cta": {
+        "url": "/tools/image-to-video",
+        "kind": "studio-tool",
+        "label": {
+          "en": "Animate Photo in Studio",
+          "zh": "用图生视频制作"
+        }
+      },
+      "overallRank": 52
+    },
+    {
+      "id": "grand-theft-auto",
+      "trendKey": "grand theft auto",
+      "hashtag": "#grandtheftauto",
+      "aliases": [],
+      "category": "photo-to-video",
+      "categoryRank": 23,
+      "signal": "new",
+      "isNew": true,
+      "delta24h": 0,
+      "totalViews": 6010000,
+      "creatorAccounts": 12,
+      "momentumScore": 36000,
+      "firstSeen": {
+        "hoursAgo": 48,
+        "en": "2 days ago",
+        "zh": "2 天前"
+      },
+      "title": {
+        "en": "Stylized Open-World Character Cutscene",
+        "zh": "都市开放世界插画风转场短片"
+      },
+      "description": {
+        "en": "6.01M views: applies bold cel-shaded open-world game color grading and character reveal motion to everyday photos.",
+        "zh": "累计 601 万播放：为日常照片套用鲜明的美式开放世界插画色调与角色登场运镜"
+      },
+      "cta": {
+        "url": "/tools/image-to-video",
+        "kind": "studio-tool",
+        "label": {
+          "en": "Animate Photo in Studio",
+          "zh": "用图生视频制作"
+        }
+      },
+      "overallRank": 53
+    },
+    {
+      "id": "caseoh",
+      "trendKey": "caseoh",
+      "hashtag": "#caseoh",
+      "aliases": [],
+      "category": "dance-motion",
+      "categoryRank": 16,
+      "signal": "new",
+      "isNew": true,
+      "delta24h": 0,
+      "totalViews": 106000,
+      "creatorAccounts": 12,
+      "momentumScore": 36000,
+      "firstSeen": {
+        "hoursAgo": 96,
+        "en": "4 days ago",
+        "zh": "4 天前"
+      },
+      "title": {
+        "en": "Streamer Groove & Stomp Dance Clip",
+        "zh": "主播反差萌踩点跺脚热舞"
+      },
+      "description": {
+        "en": "Animates any portrait into high-energy comedic bounce and stomp dance choreography.",
+        "zh": "上传单人照片生成充满喜剧张力的重拍跺脚与摇摆热舞视频"
+      },
+      "cta": {
+        "url": "/effects/angry-dance",
+        "kind": "direct-effect",
+        "label": {
+          "en": "Try Angry Dance AI",
+          "zh": "拍同款愤怒之舞"
+        },
+        "previewImage": "/samples/angry-dance.jpg"
+      },
+      "overallRank": 54
+    },
+    {
+      "id": "back-tattoo",
+      "trendKey": "back tattoo",
+      "hashtag": "#backtattoo",
+      "aliases": [],
+      "category": "photo-restyle",
+      "categoryRank": 16,
+      "signal": "new",
+      "isNew": true,
+      "delta24h": 0,
+      "totalViews": 3200000,
+      "creatorAccounts": 11,
+      "momentumScore": 33000,
+      "firstSeen": {
+        "hoursAgo": 264,
+        "en": "11 days ago",
+        "zh": "11 天前"
+      },
+      "title": {
+        "en": "Ultra-Realistic Fresh Tattoo Prank",
+        "zh": "逼真新纹身整蛊爸妈滤镜"
+      },
+      "description": {
+        "en": "Over 5.7M combined plays across tattoo prank tags: wraps realistic black-and-grey ink and subtle fresh redness onto skin without altering room lighting.",
+        "zh": "多标签合计超 570 万播放的整蛊神器：锁死原图房间背景与皮肤毛孔，贴合带微红质感的逼真新纹身"
+      },
+      "cta": {
+        "url": "/effects/fake-tattoo-prank-ai",
+        "kind": "direct-effect",
+        "label": {
+          "en": "Try Fake Tattoo Prank",
+          "zh": "试逼真纹身整蛊"
+        },
+        "previewImage": "/samples/fake-tattoo-prank-ai.jpg"
+      },
+      "overallRank": 55
     },
     {
       "id": "selflove",
@@ -1585,7 +2034,7 @@
       "hashtag": "#selflove",
       "aliases": [],
       "category": "photo-restyle",
-      "categoryRank": 14,
+      "categoryRank": 17,
       "signal": "new",
       "isNew": true,
       "delta24h": 1790,
@@ -1599,21 +2048,316 @@
       },
       "title": {
         "en": "Pencil-Sketch Back-Hug Portrait",
-        "zh": "铅笔素描背后拥抱治愈照"
+        "zh": "铅笔手绘背后拥抱治愈照"
       },
       "description": {
-        "en": "Blends photography and pencil illustration so a hand-sketched version of the subject wraps them in a warm hug from behind.",
-        "zh": "将实拍照片与铅笔手绘结合，让素描版的自己从背后给出温暖拥抱，传递治愈情绪"
+        "en": "English-tagged variant of the Self Hug Sketch wave where a charcoal-drawn double wraps warm arms around the subject.",
+        "zh": "英文圈流行的素描自我拥抱玩法，一张单人照即可生成手绘分身背后拥抱真人的温暖画面"
       },
       "cta": {
-        "url": "/effects/ai-hug-video",
+        "url": "/effects/self-hug-sketch-ai",
         "kind": "direct-effect",
         "label": {
-          "en": "Try AI Hug Video",
-          "zh": "生成 AI 拥抱视频"
+          "en": "Try Self Hug Sketch AI",
+          "zh": "生成素描自我拥抱"
+        },
+        "previewImage": "/samples/self-hug-sketch-ai.jpg"
+      },
+      "overallRank": 56
+    },
+    {
+      "id": "crea-un",
+      "trendKey": "crea un",
+      "hashtag": "#creaun",
+      "aliases": [],
+      "category": "photo-to-video",
+      "categoryRank": 24,
+      "signal": "new",
+      "isNew": true,
+      "delta24h": 0,
+      "totalViews": 524000,
+      "creatorAccounts": 6,
+      "momentumScore": 18000,
+      "firstSeen": {
+        "hoursAgo": 240,
+        "en": "10 days ago",
+        "zh": "10 天前"
+      },
+      "title": {
+        "en": "Holiday Snow-Globe & Duo Dance Clip",
+        "zh": "圣诞水晶球与双人同步热舞"
+      },
+      "description": {
+        "en": "Places uploaded portraits inside a glowing holiday snow globe or syncs two portraits into a cheerful seasonal dance.",
+        "zh": "将照片放入发光飘雪圣诞水晶球或生成节日双人同步趣味短片"
+      },
+      "cta": {
+        "url": "/effects/ai-christmas-photo",
+        "kind": "direct-effect",
+        "label": {
+          "en": "Try AI Christmas Photo",
+          "zh": "生成 AI 圣诞写真"
+        },
+        "previewImage": "/samples/ai-christmas-photo.jpg"
+      },
+      "overallRank": 57
+    },
+    {
+      "id": "jensenhuang",
+      "trendKey": "jensenhuang",
+      "hashtag": "#jensenhuang",
+      "aliases": [],
+      "category": "photo-to-video",
+      "categoryRank": 25,
+      "signal": "new",
+      "isNew": true,
+      "delta24h": 0,
+      "totalViews": 3400000,
+      "creatorAccounts": 5,
+      "momentumScore": 15000,
+      "firstSeen": {
+        "hoursAgo": 72,
+        "en": "3 days ago",
+        "zh": "3 天前"
+      },
+      "title": {
+        "en": "Leather-Jacket Keynote Swagger Clip",
+        "zh": "皮衣大佬发布会律动短片"
+      },
+      "description": {
+        "en": "3.4M total plays: animates tech and business portraits into upbeat dance and keynote swagger templates.",
+        "zh": "累计 340 万播放：将正装或皮衣人像照片一键驱动为反差感十足的街头律动短视频"
+      },
+      "cta": {
+        "url": "/effects/give-it-all-to-me-ai",
+        "kind": "direct-effect",
+        "label": {
+          "en": "Try Give It All to Me AI",
+          "zh": "拍重低音抖肩舞"
+        },
+        "previewImage": "/samples/give-it-all-to-me-ai.jpg"
+      },
+      "overallRank": 58
+    },
+    {
+      "id": "off-free-7-days",
+      "trendKey": "off free 7 days",
+      "hashtag": "#offfree7days",
+      "aliases": [],
+      "category": "photo-to-video",
+      "categoryRank": 26,
+      "signal": "new",
+      "isNew": true,
+      "delta24h": 0,
+      "totalViews": 11000,
+      "creatorAccounts": 5,
+      "momentumScore": 15000,
+      "firstSeen": {
+        "hoursAgo": 24,
+        "en": "1 day ago",
+        "zh": "1 天前"
+      },
+      "title": {
+        "en": "Quick Portrait Sway & Pout Clip",
+        "zh": "单图轻快摇摆傲娇律动"
+      },
+      "description": {
+        "en": "Animates a static portrait into a playful sway and expressive head-tilt dance clip.",
+        "zh": "让静态半身人像做出轻快摇摆与傲娇偏头律动的短视频玩法"
+      },
+      "cta": {
+        "url": "/effects/tsundere-hmph-stomp-ai",
+        "kind": "direct-effect",
+        "label": {
+          "en": "Try Tsundere Stomp AI",
+          "zh": "拍傲娇跺脚舞"
+        },
+        "previewImage": "/samples/tsundere-hmph-stomp-ai.jpg"
+      },
+      "overallRank": 59
+    },
+    {
+      "id": "crie-esse",
+      "trendKey": "crie esse",
+      "hashtag": "#crieesse",
+      "aliases": [],
+      "category": "photo-to-video",
+      "categoryRank": 27,
+      "signal": "new",
+      "isNew": true,
+      "delta24h": 0,
+      "totalViews": 867000,
+      "creatorAccounts": 4,
+      "momentumScore": 12000,
+      "firstSeen": {
+        "hoursAgo": 72,
+        "en": "3 days ago",
+        "zh": "3 天前"
+      },
+      "title": {
+        "en": "Portuguese Savanna Lion Ride Clip",
+        "zh": "葡语区单图骑雄狮短视频"
+      },
+      "description": {
+        "en": "Brazil & Portugal creator wave turning a single casual portrait into a sunlit savanna lion-riding video clip.",
+        "zh": "葡语区热传的一张照片骑雄狮玩法，上传生活照即可生成草原骑行大片"
+      },
+      "cta": {
+        "url": "/effects/lion-riding-ai",
+        "kind": "direct-effect",
+        "label": {
+          "en": "Try Lion Riding AI",
+          "zh": "拍同款骑狮子"
+        },
+        "previewImage": "/samples/lion-riding-ai.jpg"
+      },
+      "overallRank": 60
+    },
+    {
+      "id": "gtaplay",
+      "trendKey": "gtaplay",
+      "hashtag": "#gtaplay",
+      "aliases": [],
+      "category": "photo-to-video",
+      "categoryRank": 28,
+      "signal": "new",
+      "isNew": true,
+      "delta24h": 0,
+      "totalViews": 43000,
+      "creatorAccounts": 4,
+      "momentumScore": 12000,
+      "firstSeen": {
+        "hoursAgo": 24,
+        "en": "1 day ago",
+        "zh": "1 天前"
+      },
+      "title": {
+        "en": "Stylized Action-Game Color Grade Clip",
+        "zh": "开放世界游戏滤镜短片"
+      },
+      "description": {
+        "en": "Applies bold illustrated action-game color grading and motion framing to a single uploaded portrait.",
+        "zh": "上传个人照片生成带标志性开放世界游戏色调与运镜效果的短视频"
+      },
+      "cta": {
+        "url": "/tools/image-to-video",
+        "kind": "studio-tool",
+        "label": {
+          "en": "Animate Photo in Studio",
+          "zh": "用图生视频制作"
         }
       },
-      "overallRank": 44
+      "overallRank": 61
+    },
+    {
+      "id": "mira-este-increible",
+      "trendKey": "mira este increible",
+      "hashtag": "#miraesteincreible",
+      "aliases": [],
+      "category": "photo-to-video",
+      "categoryRank": 29,
+      "signal": "new",
+      "isNew": true,
+      "delta24h": 0,
+      "totalViews": 22000,
+      "creatorAccounts": 4,
+      "momentumScore": 12000,
+      "firstSeen": {
+        "hoursAgo": 168,
+        "en": "7 days ago",
+        "zh": "7 天前"
+      },
+      "title": {
+        "en": "Groomer vs. Dog Kung-Fu Salon Prank",
+        "zh": "小狗洗澡功夫反杀大战美容师"
+      },
+      "description": {
+        "en": "Places your dog or cat on a pet salon table with shampoo foam on its head, throwing playful kung-fu paw jabs at a shocked groomer.",
+        "zh": "把自家猫狗放上宠物美容台，顶着洗发泡沫摆出功夫架势与美容师上演泡泡横飞的搞笑反杀"
+      },
+      "cta": {
+        "url": "/effects/groomer-vs-dog-ai",
+        "kind": "direct-effect",
+        "label": {
+          "en": "Try Groomer vs Dog AI",
+          "zh": "拍小狗大战美容师"
+        },
+        "previewImage": "/samples/groomer-vs-dog-ai.jpg"
+      },
+      "overallRank": 62
+    },
+    {
+      "id": "more-hidden",
+      "trendKey": "more hidden",
+      "hashtag": "#morehidden",
+      "aliases": [],
+      "category": "photo-restyle",
+      "categoryRank": 18,
+      "signal": "new",
+      "isNew": true,
+      "delta24h": 0,
+      "totalViews": 920000,
+      "creatorAccounts": 3,
+      "momentumScore": 9000,
+      "firstSeen": {
+        "hoursAgo": 72,
+        "en": "3 days ago",
+        "zh": "3 天前"
+      },
+      "title": {
+        "en": "One-Prompt Cinema Still Restyle",
+        "zh": "一句话电影剧照级改图"
+      },
+      "description": {
+        "en": "920K views in 3 days: upgrades flat phone snapshots into anamorphic cinema stills with dramatic color grading.",
+        "zh": "3 天收获 92 万播放：把普通手机随手拍一键重塑为宽银幕电影剧照质感"
+      },
+      "cta": {
+        "url": "/tools/ai-image-generator",
+        "kind": "studio-tool",
+        "label": {
+          "en": "Create in Image Studio",
+          "zh": "去 AI 生图制作"
+        }
+      },
+      "overallRank": 63
+    },
+    {
+      "id": "escena-con-un-leon-usando",
+      "trendKey": "escena con un leon usando",
+      "hashtag": "#escenaconunleonusando",
+      "aliases": ["asi hice este increible"],
+      "category": "photo-to-video",
+      "categoryRank": 30,
+      "signal": "new",
+      "isNew": true,
+      "delta24h": 0,
+      "totalViews": 195000,
+      "creatorAccounts": 3,
+      "momentumScore": 9000,
+      "firstSeen": {
+        "hoursAgo": 24,
+        "en": "1 day ago",
+        "zh": "1 天前"
+      },
+      "title": {
+        "en": "Big-Cat Martial-Arts Prank Clip",
+        "zh": "赤手搏猛兽反差整蛊短片"
+      },
+      "description": {
+        "en": "Slapstick comedy clip where an everyday person from one uploaded photo squares up in a martial-arts stance and sends a giant wild cat tumbling.",
+        "zh": "上传一张人物照片，上演赤手摆出功夫架势把猛兽打翻在地的无害荒诞整蛊视频"
+      },
+      "cta": {
+        "url": "/effects/tiger-fight-cctv-ai",
+        "kind": "direct-effect",
+        "label": {
+          "en": "Try Tiger Fight CCTV AI",
+          "zh": "拍监控赤手打老虎"
+        },
+        "previewImage": "/samples/tiger-fight-cctv-ai.jpg"
+      },
+      "overallRank": 64
     },
     {
       "id": "blue-casual",
@@ -1621,13 +2365,13 @@
       "hashtag": "#bluecasual",
       "aliases": ["double portrait"],
       "category": "photo-restyle",
-      "categoryRank": 15,
+      "categoryRank": 19,
       "signal": "new",
       "isNew": true,
-      "delta24h": 9434,
-      "totalViews": 305000,
+      "delta24h": 440,
+      "totalViews": 306000,
       "creatorAccounts": 2,
-      "momentumScore": 15434,
+      "momentumScore": 6440,
       "firstSeen": {
         "hoursAgo": 696,
         "en": "29 days ago",
@@ -1649,7 +2393,263 @@
           "zh": "去 AI 生图制作"
         }
       },
-      "overallRank": 45
+      "overallRank": 65
+    },
+    {
+      "id": "kingnasirdance",
+      "trendKey": "kingnasirdance",
+      "hashtag": "#kingnasirdance",
+      "aliases": [],
+      "category": "dance-motion",
+      "categoryRank": 17,
+      "signal": "new",
+      "isNew": true,
+      "delta24h": 0,
+      "totalViews": 491000,
+      "creatorAccounts": 2,
+      "momentumScore": 6000,
+      "firstSeen": {
+        "hoursAgo": 648,
+        "en": "27 days ago",
+        "zh": "27 天前"
+      },
+      "title": {
+        "en": "Footwork Bounce Routine Clip",
+        "zh": "街头快节奏碎步律动舞"
+      },
+      "description": {
+        "en": "Drives a single standing portrait through upbeat street footwork and shoulder-bounce choreography.",
+        "zh": "用一张站姿人像生成节奏感鲜明的街头碎步与耸肩舞蹈短视频"
+      },
+      "cta": {
+        "url": "/tools/image-to-video",
+        "kind": "studio-tool",
+        "label": {
+          "en": "Animate Photo in Studio",
+          "zh": "用图生视频制作"
+        }
+      },
+      "overallRank": 66
+    },
+    {
+      "id": "pterodactyl",
+      "trendKey": "pterodactyl",
+      "hashtag": "#pterodactyl",
+      "aliases": [],
+      "category": "photo-to-video",
+      "categoryRank": 31,
+      "signal": "new",
+      "isNew": true,
+      "delta24h": 0,
+      "totalViews": 54000,
+      "creatorAccounts": 2,
+      "momentumScore": 6000,
+      "firstSeen": {
+        "hoursAgo": 3,
+        "en": "3 hours ago",
+        "zh": "3 小时前"
+      },
+      "title": {
+        "en": "Runaway Pet Pterodactyl Leash Prank",
+        "zh": "街头遛翼龙挣脱牵引绳短片"
+      },
+      "description": {
+        "en": "Places the uploaded person into an outdoor street clip walking a giant pterodactyl on a leash right before it takes flight.",
+        "zh": "将个人照片融入街头遛翼龙搞笑场景，演绎宠物翼龙挣脱牵引绳起飞的奇幻反差"
+      },
+      "cta": {
+        "url": "/tools/image-to-video",
+        "kind": "studio-tool",
+        "label": {
+          "en": "Animate Photo in Studio",
+          "zh": "用图生视频制作"
+        }
+      },
+      "overallRank": 67
+    },
+    {
+      "id": "jawn-b2",
+      "trendKey": "jawn b2",
+      "hashtag": "#jawnb2",
+      "aliases": [],
+      "category": "photo-to-video",
+      "categoryRank": 32,
+      "signal": "new",
+      "isNew": true,
+      "delta24h": 0,
+      "totalViews": 32000,
+      "creatorAccounts": 2,
+      "momentumScore": 6000,
+      "firstSeen": {
+        "hoursAgo": 24,
+        "en": "1 day ago",
+        "zh": "1 天前"
+      },
+      "title": {
+        "en": "Beat-Cut Portrait Flash Transition",
+        "zh": "快节奏闪白卡点转场短片"
+      },
+      "description": {
+        "en": "Turns uploaded snapshots into fast-paced beat-matched flash transitions ready for vertical feeds.",
+        "zh": "将照片片段自动处理为强鼓点闪白转场短视频"
+      },
+      "cta": {
+        "url": "/tools/image-to-video",
+        "kind": "studio-tool",
+        "label": {
+          "en": "Animate Photo in Studio",
+          "zh": "用图生视频制作"
+        }
+      },
+      "overallRank": 68
+    },
+    {
+      "id": "theboys",
+      "trendKey": "theboys",
+      "hashtag": "#theboys",
+      "aliases": [],
+      "category": "photo-to-video",
+      "categoryRank": 33,
+      "signal": "new",
+      "isNew": true,
+      "delta24h": 0,
+      "totalViews": 27000,
+      "creatorAccounts": 2,
+      "momentumScore": 6000,
+      "firstSeen": {
+        "hoursAgo": 72,
+        "en": "3 days ago",
+        "zh": "3 天前"
+      },
+      "title": {
+        "en": "Comic Anti-Hero Groove Dance",
+        "zh": "美漫风角色魔性律动舞"
+      },
+      "description": {
+        "en": "Drops serious character or friend portraits into upbeat hip-hop bounce dance choreography for comedic contrast.",
+        "zh": "把冷峻严肃的人物肖像驱动为欢快街头律动舞蹈，制造强烈喜剧反差"
+      },
+      "cta": {
+        "url": "/effects/give-it-all-to-me-ai",
+        "kind": "direct-effect",
+        "label": {
+          "en": "Try Give It All to Me AI",
+          "zh": "拍重低音抖肩舞"
+        },
+        "previewImage": "/samples/give-it-all-to-me-ai.jpg"
+      },
+      "overallRank": 69
+    },
+    {
+      "id": "una-fotografia-para-generar",
+      "trendKey": "una fotografia para generar",
+      "hashtag": "#unafotografiaparagenerar",
+      "aliases": [],
+      "category": "photo-restyle",
+      "categoryRank": 20,
+      "signal": "new",
+      "isNew": true,
+      "delta24h": 0,
+      "totalViews": 8706,
+      "creatorAccounts": 2,
+      "momentumScore": 6000,
+      "firstSeen": {
+        "hoursAgo": 168,
+        "en": "7 days ago",
+        "zh": "7 天前"
+      },
+      "title": {
+        "en": "Instant Skin-Matched Tattoo Preview",
+        "zh": "一秒上身逼真纹身整蛊图"
+      },
+      "description": {
+        "en": "Spanish-language prank filter wrapping realistic fresh black-and-grey tattoo art onto bare arms in seconds.",
+        "zh": "西语圈流行的单图纹身整蛊玩法，保持原图光线与肤质不变生成逼真花臂"
+      },
+      "cta": {
+        "url": "/effects/fake-tattoo-prank-ai",
+        "kind": "direct-effect",
+        "label": {
+          "en": "Try Fake Tattoo Prank",
+          "zh": "试逼真纹身整蛊"
+        },
+        "previewImage": "/samples/fake-tattoo-prank-ai.jpg"
+      },
+      "overallRank": 70
+    },
+    {
+      "id": "deadlift",
+      "trendKey": "deadlift",
+      "hashtag": "#deadlift",
+      "aliases": [],
+      "category": "photo-to-video",
+      "categoryRank": 34,
+      "signal": "new",
+      "isNew": true,
+      "delta24h": 0,
+      "totalViews": 372000,
+      "creatorAccounts": 1,
+      "momentumScore": 3000,
+      "firstSeen": {
+        "hoursAgo": 240,
+        "en": "10 days ago",
+        "zh": "10 天前"
+      },
+      "title": {
+        "en": "Gym-to-Pro Bodybuilder Stage Reveal",
+        "zh": "不去健身房一秒变健美冠军"
+      },
+      "description": {
+        "en": "Transforms a casual gym or everyday snapshot into a spotlight pro-bodybuilder flexing reveal.",
+        "zh": "上传一张日常照或健身房随手拍，一分钟内变成聚光灯下浑身肌肉的健美舞台大片"
+      },
+      "cta": {
+        "url": "/effects/ai-muscle-generator",
+        "kind": "direct-effect",
+        "label": {
+          "en": "Try AI Muscle Generator",
+          "zh": "体验 AI 肌肉生成"
+        },
+        "previewImage": "/samples/ai-muscle-generator.jpg"
+      },
+      "overallRank": 71
+    },
+    {
+      "id": "contenido-viral-facilmente",
+      "trendKey": "contenido viral facilmente",
+      "hashtag": "#contenidoviralfacilmente",
+      "aliases": ["lista para usar en"],
+      "category": "photo-restyle",
+      "categoryRank": 21,
+      "signal": "new",
+      "isNew": true,
+      "delta24h": 0,
+      "totalViews": 2036,
+      "creatorAccounts": 1,
+      "momentumScore": 3000,
+      "firstSeen": {
+        "hoursAgo": 120,
+        "en": "5 days ago",
+        "zh": "5 天前"
+      },
+      "title": {
+        "en": "Matching Couple Back-Tattoo Portrait",
+        "zh": "情侣配对背部纹身艺术照"
+      },
+      "description": {
+        "en": "Generates realistic matching back-tattoo portraits from a couple photo in under two minutes.",
+        "zh": "上传情侣照片自动生成背部带有逼真配对纹身图案的艺术肖像照"
+      },
+      "cta": {
+        "url": "/effects/fake-tattoo-prank-ai",
+        "kind": "direct-effect",
+        "label": {
+          "en": "Try Fake Tattoo Prank",
+          "zh": "试逼真纹身整蛊"
+        },
+        "previewImage": "/samples/fake-tattoo-prank-ai.jpg"
+      },
+      "overallRank": 72
     }
   ]
 }
