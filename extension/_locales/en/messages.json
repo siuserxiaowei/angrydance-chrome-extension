@@ -1,0 +1,106 @@
+{
+  "extName": {
+    "message": "Angry Dance AI - Photo to Dance Video",
+    "description": "Extension name shown in Chrome Web Store and browser management (max 45 chars)."
+  },
+  "extShortName": {
+    "message": "Angry Dance",
+    "description": "Short extension name for toolbar and app launcher (max 12 chars)."
+  },
+  "extDescription": {
+    "message": "Turn photos into viral AI dance, dog dance, and AI hug videos in seconds. Quick launcher & right-click image tool by Angry Dance.",
+    "description": "Store-compliant manifest summary (strictly <= 132 characters)."
+  },
+  "actionTitle": {
+    "message": "Angry Dance AI — Photo to Dance & Video Launcher",
+    "description": "Tooltip displayed when hovering over the extension toolbar icon."
+  },
+  "contextMenuTitle": {
+    "message": "Make This Photo Dance with Angry Dance AI",
+    "description": "Right-click context menu item shown on web images."
+  },
+  "headerBadge": {
+    "message": "AI VIDEO LAUNCHER"
+  },
+  "headerSubtitle": {
+    "message": "One-click AI dance, pet motion & daily trend radar"
+  },
+  "heroTag": {
+    "message": "STUDIO"
+  },
+  "cardStudioTitle": {
+    "message": "Studio Generator"
+  },
+  "cardStudioDesc": {
+    "message": "Upload any portrait or character photo & pick motion"
+  },
+  "cardStudioCta": {
+    "message": "Open Studio"
+  },
+  "sectionEffects": {
+    "message": "POPULAR EFFECTS & RADAR"
+  },
+  "cardDogTitle": {
+    "message": "Dog & Pet Dance AI"
+  },
+  "cardDogDesc": {
+    "message": "Turn dog & cat photos into viral dance clips"
+  },
+  "cardDogTag": {
+    "message": "HOT"
+  },
+  "cardHugTitle": {
+    "message": "AI Hug Video"
+  },
+  "cardHugDesc": {
+    "message": "Animate single or duo photos into a warm embrace"
+  },
+  "cardHugTag": {
+    "message": "WARM"
+  },
+  "cardImg2VidTitle": {
+    "message": "Image to Video"
+  },
+  "cardImg2VidDesc": {
+    "message": "Cinematic camera & character motion from 1 photo"
+  },
+  "cardImg2VidTag": {
+    "message": "TOOL"
+  },
+  "cardTrendsTitle": {
+    "message": "Daily Viral AI Trend Radar"
+  },
+  "cardTrendsDesc": {
+    "message": "Live TikTok, Reels & Shorts AI video trend tracker"
+  },
+  "cardTrendsTag": {
+    "message": "LIVE"
+  },
+  "quickImageLabel": {
+    "message": "IMAGE URL QUICK LAUNCH"
+  },
+  "quickImagePlaceholder": {
+    "message": "Paste image URL (https://...) to animate"
+  },
+  "quickImageBtn": {
+    "message": "Animate"
+  },
+  "quickImageInvalid": {
+    "message": "Please enter a valid http:// or https:// image URL."
+  },
+  "tipRightClick": {
+    "message": "Tip: Right-click any web image → “Make This Photo Dance with Angry Dance AI”"
+  },
+  "footerHome": {
+    "message": "AngryDance.com"
+  },
+  "footerEffects": {
+    "message": "All Effects"
+  },
+  "footerInvite": {
+    "message": "Free Credits"
+  },
+  "footerPrivacy": {
+    "message": "Privacy"
+  }
+}

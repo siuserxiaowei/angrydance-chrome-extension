@@ -1,0 +1,1655 @@
+{
+  "version": 1,
+  "updatedAt": "2026-11-17T00:00:00Z",
+  "summary": {
+    "reportDate": "2026-11-17",
+    "totalTrendsScanned": 556,
+    "photoEligibleClusters": 348,
+    "rankedCount": 45,
+    "combined24hDelta": 9181222,
+    "combinedTotalViews": 352433822,
+    "combinedCreatorAccounts": 2267,
+    "directEffectCount": 15,
+    "categoryCounts": {
+      "photo-to-video": 15,
+      "photo-restyle": 15,
+      "dance-motion": 15
+    },
+    "rankingFormula": "24h View Delta + (Active Creator Accounts × 3,000)",
+    "license": "CC BY 4.0"
+  },
+  "trends": [
+    {
+      "id": "homealone",
+      "trendKey": "homealone",
+      "hashtag": "#homealone",
+      "aliases": [],
+      "category": "dance-motion",
+      "categoryRank": 1,
+      "signal": "hot",
+      "isNew": true,
+      "delta24h": 1198672,
+      "totalViews": 9770000,
+      "creatorAccounts": 15,
+      "momentumScore": 1243672,
+      "firstSeen": {
+        "hoursAgo": 48,
+        "en": "2 days ago",
+        "zh": "2 天前"
+      },
+      "title": {
+        "en": "Deck the Halls Holiday Living-Room Dance",
+        "zh": "圣诞客厅欢乐群舞短片"
+      },
+      "description": {
+        "en": "Explosive holiday trend (+1.2M views in 24h) turning a single photo into a festive living-room Christmas dance surrounded by twinkling lights.",
+        "zh": "24 小时狂飙近 120 万播放的圣诞爆款玩法，上传照片即可融入彩灯闪烁的温馨客厅跳起节日欢快舞蹈"
+      },
+      "cta": {
+        "url": "/effects/ai-christmas-photo",
+        "kind": "direct-effect",
+        "label": {
+          "en": "Try AI Christmas Photo",
+          "zh": "生成 AI 圣诞写真"
+        },
+        "previewImage": "/samples/ai-christmas-photo.jpg"
+      },
+      "overallRank": 1
+    },
+    {
+      "id": "vampire-diaries",
+      "trendKey": "vampire diaries",
+      "hashtag": "#vampirediaries",
+      "aliases": ["damon salvatore"],
+      "category": "photo-to-video",
+      "categoryRank": 1,
+      "signal": "hot",
+      "isNew": true,
+      "delta24h": 470057,
+      "totalViews": 29660000,
+      "creatorAccounts": 156,
+      "momentumScore": 938057,
+      "firstSeen": {
+        "hoursAgo": 720,
+        "en": "30 days ago",
+        "zh": "30 天前"
+      },
+      "title": {
+        "en": "Gothic Vampire Chapel Transformation",
+        "zh": "哥特古堡吸血鬼变装转场"
+      },
+      "description": {
+        "en": "Creators upload a single portrait to generate a moody gothic drama reveal complete with chapel lighting transitions and vampire styling.",
+        "zh": "上传一张单人肖像，AI 自动生成带古堡教堂光影转场与暗黑哥特妆造的戏剧感变装短视频"
+      },
+      "cta": {
+        "url": "/tools/image-to-video",
+        "kind": "studio-tool",
+        "label": {
+          "en": "Animate Photo in Studio",
+          "zh": "用图生视频制作"
+        }
+      },
+      "overallRank": 2
+    },
+    {
+      "id": "creer-cette",
+      "trendKey": "creer cette",
+      "hashtag": "#creercette",
+      "aliases": [],
+      "category": "photo-to-video",
+      "categoryRank": 2,
+      "signal": "hot",
+      "isNew": true,
+      "delta24h": 851624,
+      "totalViews": 8660000,
+      "creatorAccounts": 28,
+      "momentumScore": 935624,
+      "firstSeen": {
+        "hoursAgo": 744,
+        "en": "31 days ago",
+        "zh": "31 天前"
+      },
+      "title": {
+        "en": "Surreal Miniature & Celebrity Entrance Clips",
+        "zh": "超现实趣味出场特效合集"
+      },
+      "description": {
+        "en": "French-speaking TikTok wave turning a static selfie into surreal micro-scenes like walking on giant banana leaves, red-carpet arrivals, or summoning flying cars.",
+        "zh": "法语区流行的超现实图生视频玩法，上传一张照片即可生成走上巨型芭蕉叶、红毯闪光灯出场或召唤飞行汽车等奇幻短片"
+      },
+      "cta": {
+        "url": "/tools/image-to-video",
+        "kind": "studio-tool",
+        "label": {
+          "en": "Animate Photo in Studio",
+          "zh": "用图生视频制作"
+        }
+      },
+      "overallRank": 3
+    },
+    {
+      "id": "hibidi-skibidi",
+      "trendKey": "hibidi skibidi",
+      "hashtag": "#hibidiskibidi",
+      "aliases": [],
+      "category": "photo-to-video",
+      "categoryRank": 3,
+      "signal": "hot",
+      "isNew": true,
+      "delta24h": 829751,
+      "totalViews": 2450000,
+      "creatorAccounts": 25,
+      "momentumScore": 904751,
+      "firstSeen": {
+        "hoursAgo": 48,
+        "en": "2 days ago",
+        "zh": "2 天前"
+      },
+      "title": {
+        "en": "Hibidi Skibidi Beat-Sync Meme Clip",
+        "zh": "Hibidi Skibidi 魔性卡点短片"
+      },
+      "description": {
+        "en": "A fast-rising meme format where one portrait is animated into a 10–15 second expressive facial-motion clip timed to viral comedic audio.",
+        "zh": "上传一张人物照片，生成 10–15 秒带魔性表情律动与节奏卡点的搞笑短视频"
+      },
+      "cta": {
+        "url": "/tools/image-to-video",
+        "kind": "studio-tool",
+        "label": {
+          "en": "Animate Photo in Studio",
+          "zh": "用图生视频制作"
+        }
+      },
+      "overallRank": 4
+    },
+    {
+      "id": "grand-theft-auto6",
+      "trendKey": "grand theft auto6",
+      "hashtag": "#grandtheftauto6",
+      "aliases": [],
+      "category": "photo-to-video",
+      "categoryRank": 4,
+      "signal": "hot",
+      "isNew": true,
+      "delta24h": 734134,
+      "totalViews": 734000,
+      "creatorAccounts": 4,
+      "momentumScore": 746134,
+      "firstSeen": {
+        "hoursAgo": 144,
+        "en": "6 days ago",
+        "zh": "6 天前"
+      },
+      "title": {
+        "en": "Open-World Action Loading Screen Intro",
+        "zh": "开放世界游戏加载立绘大片"
+      },
+      "description": {
+        "en": "Turns a personal photo into a stylized cel-shaded action-game loading screen with illustrated character key art and subtle camera parallax.",
+        "zh": "将个人照片转化为美式插画风游戏加载界面，包含角色立绘光影与镜头微推拉动态效果"
+      },
+      "cta": {
+        "url": "/tools/image-to-video",
+        "kind": "studio-tool",
+        "label": {
+          "en": "Animate Photo in Studio",
+          "zh": "用图生视频制作"
+        }
+      },
+      "overallRank": 5
+    },
+    {
+      "id": "minute-wassup",
+      "trendKey": "minute wassup",
+      "hashtag": "#minutewassup",
+      "aliases": [],
+      "category": "photo-to-video",
+      "categoryRank": 5,
+      "signal": "hot",
+      "isNew": true,
+      "delta24h": 702747,
+      "totalViews": 2960000,
+      "creatorAccounts": 8,
+      "momentumScore": 726747,
+      "firstSeen": {
+        "hoursAgo": 456,
+        "en": "19 days ago",
+        "zh": "19 天前"
+      },
+      "title": {
+        "en": "Wassup Morphing Portrait Transition",
+        "zh": "Wassup 动态变形卡点视频"
+      },
+      "description": {
+        "en": "Animates a still portrait or short clip with stylized morphing motion effects synced to upbeat throwback hip-hop edits.",
+        "zh": "上传一张照片，生成带有夸张动画变形与复古街头节奏感的趣味短视频"
+      },
+      "cta": {
+        "url": "/tools/image-to-video",
+        "kind": "studio-tool",
+        "label": {
+          "en": "Animate Photo in Studio",
+          "zh": "用图生视频制作"
+        }
+      },
+      "overallRank": 6
+    },
+    {
+      "id": "lion-riding",
+      "trendKey": "lion riding",
+      "hashtag": "#lionriding",
+      "aliases": ["solo una", "sola foto y obten"],
+      "category": "photo-to-video",
+      "categoryRank": 6,
+      "signal": "hot",
+      "isNew": true,
+      "delta24h": 592875,
+      "totalViews": 3310000,
+      "creatorAccounts": 35,
+      "momentumScore": 697875,
+      "firstSeen": {
+        "hoursAgo": 72,
+        "en": "3 days ago",
+        "zh": "3 天前"
+      },
+      "title": {
+        "en": "Savanna Lion Riding Video",
+        "zh": "草原骑狮子大片"
+      },
+      "description": {
+        "en": "Upload one full-body or half-body photo and AI places you confidently riding a giant lion across a sunlit savanna in a 5-second tracking shot.",
+        "zh": "只需上传一张个人照片，AI 自动合成并生成你骑着雄狮漫步阳光草原的 5 秒电影感跟拍视频"
+      },
+      "cta": {
+        "url": "/effects/lion-riding-ai",
+        "kind": "direct-effect",
+        "label": {
+          "en": "Try Lion Riding AI",
+          "zh": "拍同款骑狮子"
+        },
+        "previewImage": "/samples/lion-riding-ai.jpg"
+      },
+      "overallRank": 7
+    },
+    {
+      "id": "football",
+      "trendKey": "football",
+      "hashtag": "#football",
+      "aliases": ["vinijr"],
+      "category": "photo-to-video",
+      "categoryRank": 7,
+      "signal": "hot",
+      "isNew": true,
+      "delta24h": 237082,
+      "totalViews": 36500000,
+      "creatorAccounts": 139,
+      "momentumScore": 654082,
+      "firstSeen": {
+        "hoursAgo": 816,
+        "en": "34 days ago",
+        "zh": "34 天前"
+      },
+      "title": {
+        "en": "Stadium Goal Celebration Highlight",
+        "zh": "绿茵场进球高光时刻"
+      },
+      "description": {
+        "en": "Animates a single portrait into an energetic stadium goal strike clip paired with crowd roar and broadcast replay framing.",
+        "zh": "上传一张照片生成绿茵场射门得分与庆祝高光片段，呈现体育赛事转播级的镜头动感"
+      },
+      "cta": {
+        "url": "/tools/image-to-video",
+        "kind": "studio-tool",
+        "label": {
+          "en": "Animate Photo in Studio",
+          "zh": "用图生视频制作"
+        }
+      },
+      "overallRank": 8
+    },
+    {
+      "id": "colored-sweater",
+      "trendKey": "colored sweater",
+      "hashtag": "#coloredsweater",
+      "aliases": ["eye glowing"],
+      "category": "photo-restyle",
+      "categoryRank": 1,
+      "signal": "hot",
+      "isNew": true,
+      "delta24h": 537179,
+      "totalViews": 1950000,
+      "creatorAccounts": 20,
+      "momentumScore": 597179,
+      "firstSeen": {
+        "hoursAgo": 48,
+        "en": "2 days ago",
+        "zh": "2 天前"
+      },
+      "title": {
+        "en": "Colored Sweater B&W Portrait",
+        "zh": "黑白电影感彩色毛衣肖像"
+      },
+      "description": {
+        "en": "Turns a selfie into a moody black-and-white film portrait where only the knit sweater stays pastel-colored and the eyes pop sharply.",
+        "zh": "上传一张自拍，生成质感黑白电影肖像，画面中唯独保留针织毛衣的柔和色彩并强化眼神光"
+      },
+      "cta": {
+        "url": "/effects/colored-sweater-ai",
+        "kind": "direct-effect",
+        "label": {
+          "en": "Try Colored Sweater AI",
+          "zh": "拍同款彩色毛衣照"
+        },
+        "previewImage": "/samples/colored-sweater-ai.jpg"
+      },
+      "overallRank": 9
+    },
+    {
+      "id": "ti-mismo",
+      "trendKey": "ti mismo",
+      "hashtag": "#timismo",
+      "aliases": ["abrazo propio", "autorretrato sanador"],
+      "category": "photo-restyle",
+      "categoryRank": 2,
+      "signal": "hot",
+      "isNew": true,
+      "delta24h": 401050,
+      "totalViews": 3390000,
+      "creatorAccounts": 58,
+      "momentumScore": 575050,
+      "firstSeen": {
+        "hoursAgo": 72,
+        "en": "3 days ago",
+        "zh": "3 天前"
+      },
+      "title": {
+        "en": "Self-Embrace Healing Sketch",
+        "zh": "自我拥抱治愈系素描照"
+      },
+      "description": {
+        "en": "Generates a warm, emotional portrait where an illustrated sketch version of yourself hugs the real you—celebrating self-acceptance.",
+        "zh": "上传一张自拍照，生成暖色调治愈系画面，展现自己温暖拥抱自己的接纳感"
+      },
+      "cta": {
+        "url": "/effects/ai-hug-video",
+        "kind": "direct-effect",
+        "label": {
+          "en": "Try AI Hug Video",
+          "zh": "生成 AI 拥抱视频"
+        }
+      },
+      "overallRank": 10
+    },
+    {
+      "id": "christmas",
+      "trendKey": "christmas",
+      "hashtag": "#christmas",
+      "aliases": ["halls"],
+      "category": "dance-motion",
+      "categoryRank": 2,
+      "signal": "rising",
+      "isNew": true,
+      "delta24h": 243790,
+      "totalViews": 2410000,
+      "creatorAccounts": 103,
+      "momentumScore": 552790,
+      "firstSeen": {
+        "hoursAgo": 288,
+        "en": "12 days ago",
+        "zh": "12 天前"
+      },
+      "title": {
+        "en": "Snowy Holiday Sweater Portrait & Clip",
+        "zh": "飘雪圣诞树节日变装玩法"
+      },
+      "description": {
+        "en": "Seasonal creator favorite converting selfies into cozy holiday sweater scenes with falling snow, warm string lights, and festive motion.",
+        "zh": "圣诞季高人气玩法，把日常自拍一键换成圣诞毛衣、飘雪窗景与暖光圣诞树氛围大片"
+      },
+      "cta": {
+        "url": "/effects/ai-christmas-photo",
+        "kind": "direct-effect",
+        "label": {
+          "en": "Try AI Christmas Photo",
+          "zh": "生成 AI 圣诞写真"
+        },
+        "previewImage": "/samples/ai-christmas-photo.jpg"
+      },
+      "overallRank": 11
+    },
+    {
+      "id": "lamine-yamal",
+      "trendKey": "lamine yamal",
+      "hashtag": "#lamineyamal",
+      "aliases": [],
+      "category": "photo-to-video",
+      "categoryRank": 8,
+      "signal": "rising",
+      "isNew": true,
+      "delta24h": 287761,
+      "totalViews": 19120000,
+      "creatorAccounts": 78,
+      "momentumScore": 521761,
+      "firstSeen": {
+        "hoursAgo": 768,
+        "en": "32 days ago",
+        "zh": "32 天前"
+      },
+      "title": {
+        "en": "Rabona Trick-Shot Football Clip",
+        "zh": "插花脚神仙球射门短片"
+      },
+      "description": {
+        "en": "Transforms one selfie into a smooth rabona trick-shot football clip under stadium floodlights with zero manual video editing.",
+        "zh": "上传一张个人照片，无需剪辑即可自动生成在球场灯光下完成高难度插花脚射门的短视频"
+      },
+      "cta": {
+        "url": "/tools/image-to-video",
+        "kind": "studio-tool",
+        "label": {
+          "en": "Animate Photo in Studio",
+          "zh": "用图生视频制作"
+        }
+      },
+      "overallRank": 12
+    },
+    {
+      "id": "window-peeper",
+      "trendKey": "window peeper",
+      "hashtag": "#windowpeeper",
+      "aliases": ["mrbean"],
+      "category": "photo-to-video",
+      "categoryRank": 9,
+      "signal": "rising",
+      "isNew": true,
+      "delta24h": 1,
+      "totalViews": 5810000,
+      "creatorAccounts": 166,
+      "momentumScore": 498001,
+      "firstSeen": {
+        "hoursAgo": 648,
+        "en": "27 days ago",
+        "zh": "27 天前"
+      },
+      "title": {
+        "en": "Window Peek Comedy POV Scene",
+        "zh": "窗外探头搞笑视角短片"
+      },
+      "description": {
+        "en": "Places the subject from a photo inside a humorous late-night diner window scene filmed from an outside-looking-in comedic POV.",
+        "zh": "将人物照片自然融入窗内吃汉堡、窗外探头张望的戏剧化搞笑主观镜头短片中"
+      },
+      "cta": {
+        "url": "/tools/image-to-video",
+        "kind": "studio-tool",
+        "label": {
+          "en": "Animate Photo in Studio",
+          "zh": "用图生视频制作"
+        }
+      },
+      "overallRank": 13
+    },
+    {
+      "id": "king-jin",
+      "trendKey": "king jin",
+      "hashtag": "#kingjin",
+      "aliases": [],
+      "category": "photo-to-video",
+      "categoryRank": 10,
+      "signal": "hot",
+      "isNew": true,
+      "delta24h": 348347,
+      "totalViews": 10150000,
+      "creatorAccounts": 37,
+      "momentumScore": 459347,
+      "firstSeen": {
+        "hoursAgo": 96,
+        "en": "4 days ago",
+        "zh": "4 天前"
+      },
+      "title": {
+        "en": "King Jin Boss-Walk Entrance",
+        "zh": "霸气慢镜出场大片"
+      },
+      "description": {
+        "en": "Generates a high-contrast, slow-motion boss entrance clip from a single portrait with dramatic lighting and beat-matched camera push.",
+        "zh": "用一张人像照片生成带戏剧光影与慢动作气场的霸气出场短视频"
+      },
+      "cta": {
+        "url": "/tools/image-to-video",
+        "kind": "studio-tool",
+        "label": {
+          "en": "Animate Photo in Studio",
+          "zh": "用图生视频制作"
+        }
+      },
+      "overallRank": 14
+    },
+    {
+      "id": "needforspeed",
+      "trendKey": "needforspeed",
+      "hashtag": "#needforspeed",
+      "aliases": [],
+      "category": "photo-to-video",
+      "categoryRank": 11,
+      "signal": "rising",
+      "isNew": true,
+      "delta24h": 255597,
+      "totalViews": 1650000,
+      "creatorAccounts": 59,
+      "momentumScore": 432597,
+      "firstSeen": {
+        "hoursAgo": 72,
+        "en": "3 days ago",
+        "zh": "3 天前"
+      },
+      "title": {
+        "en": "Street Drift Car Cinema Clip",
+        "zh": "街头漂移赛车电影短片"
+      },
+      "description": {
+        "en": "Car owners upload a parked vehicle photo and turn it into a high-speed neon street drift sequence with slow-motion motion blur.",
+        "zh": "车主上传一张爱车静态照，AI 自动生成高速追逐、弯道漂移与慢镜尾灯拉丝的电影感赛车短片"
+      },
+      "cta": {
+        "url": "/tools/image-to-video",
+        "kind": "studio-tool",
+        "label": {
+          "en": "Animate Photo in Studio",
+          "zh": "用图生视频制作"
+        }
+      },
+      "overallRank": 15
+    },
+    {
+      "id": "aibaby",
+      "trendKey": "aibaby",
+      "hashtag": "#aibaby",
+      "aliases": [],
+      "category": "dance-motion",
+      "categoryRank": 3,
+      "signal": "hot",
+      "isNew": true,
+      "delta24h": 28700,
+      "totalViews": 58370000,
+      "creatorAccounts": 132,
+      "momentumScore": 424700,
+      "firstSeen": {
+        "hoursAgo": 696,
+        "en": "29 days ago",
+        "zh": "29 天前"
+      },
+      "title": {
+        "en": "Viral AI Baby Groove Dance",
+        "zh": "爆款 AI 宝宝扭臀跳舞"
+      },
+      "description": {
+        "en": "Over 58M cumulative plays: parents upload one clear baby photo and animate it into a joyful, giggling full-body dance routine.",
+        "zh": "累计突破 5837 万播放的常青爆款：上传一张清晰的宝宝全身照，即可生成开心扭动、挥手咯咯笑的萌娃跳舞视频"
+      },
+      "cta": {
+        "url": "/effects/ai-baby-dance",
+        "kind": "direct-effect",
+        "label": {
+          "en": "Try AI Baby Dance",
+          "zh": "生成 AI 宝宝跳舞"
+        },
+        "previewImage": "/samples/ai-baby-dance.jpg"
+      },
+      "overallRank": 16
+    },
+    {
+      "id": "maquillaje-que-esta-rompiendo",
+      "trendKey": "maquillaje que esta rompiendo",
+      "hashtag": "#maquillajequeestarompiendo",
+      "aliases": [],
+      "category": "photo-to-video",
+      "categoryRank": 12,
+      "signal": "hot",
+      "isNew": true,
+      "delta24h": 365247,
+      "totalViews": 1720000,
+      "creatorAccounts": 16,
+      "momentumScore": 413247,
+      "firstSeen": {
+        "hoursAgo": 72,
+        "en": "3 days ago",
+        "zh": "3 天前"
+      },
+      "title": {
+        "en": "Avant-Garde Editorial Makeup Reveal",
+        "zh": "高定创意眼妆动态大片"
+      },
+      "description": {
+        "en": "Transforms a close-up selfie into an editorial beauty reveal showcasing bold chromatic eyeshadow details and studio lighting.",
+        "zh": "上传面部近照，生成突出眼部撞色细节与艺术光影的高定美妆视觉短视频"
+      },
+      "cta": {
+        "url": "/tools/image-to-video",
+        "kind": "studio-tool",
+        "label": {
+          "en": "Animate Photo in Studio",
+          "zh": "用图生视频制作"
+        }
+      },
+      "overallRank": 17
+    },
+    {
+      "id": "sidemen",
+      "trendKey": "sidemen",
+      "hashtag": "#sidemen",
+      "aliases": ["iconicmoment"],
+      "category": "photo-to-video",
+      "categoryRank": 13,
+      "signal": "hot",
+      "isNew": true,
+      "delta24h": 0,
+      "totalViews": 20380000,
+      "creatorAccounts": 133,
+      "momentumScore": 399000,
+      "firstSeen": {
+        "hoursAgo": 576,
+        "en": "24 days ago",
+        "zh": "24 天前"
+      },
+      "title": {
+        "en": "20-vs-1 Surrounded Reaction Meme",
+        "zh": "20 围 1 名场面搞笑短片"
+      },
+      "description": {
+        "en": "Places a single uploaded portrait at the center of a crowded studio reaction circle for viral 'caught exaggerating' comedy skits.",
+        "zh": "上传一张照片即可把主角放进被众人围观质疑的搞笑综艺感围圈场景中"
+      },
+      "cta": {
+        "url": "/tools/image-to-video",
+        "kind": "studio-tool",
+        "label": {
+          "en": "Animate Photo in Studio",
+          "zh": "用图生视频制作"
+        }
+      },
+      "overallRank": 18
+    },
+    {
+      "id": "pick14daychallenge",
+      "trendKey": "pick14daychallenge",
+      "hashtag": "#pick14daychallenge",
+      "aliases": [],
+      "category": "photo-to-video",
+      "categoryRank": 14,
+      "signal": "rising",
+      "isNew": true,
+      "delta24h": 266025,
+      "totalViews": 2420000,
+      "creatorAccounts": 33,
+      "momentumScore": 365025,
+      "firstSeen": {
+        "hoursAgo": 264,
+        "en": "11 days ago",
+        "zh": "11 天前"
+      },
+      "title": {
+        "en": "Nostalgic Lyric Card Video",
+        "zh": "怀旧歌词氛围感纪念短片"
+      },
+      "description": {
+        "en": "Animates couple or solo portraits with soft film grain and romantic lyric motion for multi-day creator posting challenges.",
+        "zh": "将单人或合照转化为带柔和胶片颗粒与浪漫情绪律动的纪念短视频"
+      },
+      "cta": {
+        "url": "/tools/image-to-video",
+        "kind": "studio-tool",
+        "label": {
+          "en": "Animate Photo in Studio",
+          "zh": "用图生视频制作"
+        }
+      },
+      "overallRank": 19
+    },
+    {
+      "id": "gta-6",
+      "trendKey": "gta 6",
+      "hashtag": "#gta6",
+      "aliases": [],
+      "category": "photo-to-video",
+      "categoryRank": 15,
+      "signal": "hot",
+      "isNew": true,
+      "delta24h": 319158,
+      "totalViews": 509000,
+      "creatorAccounts": 11,
+      "momentumScore": 352158,
+      "firstSeen": {
+        "hoursAgo": 144,
+        "en": "6 days ago",
+        "zh": "6 天前"
+      },
+      "title": {
+        "en": "Vice-Neon Character Splash Clip",
+        "zh": "霓虹都市角色登场动画"
+      },
+      "description": {
+        "en": "Converts a selfie into a sunset-neon illustrated character splash screen with smooth foreground-background separation.",
+        "zh": "把自拍转换成落日霓虹色调的都市插画角色开场动画，前后景层次分明"
+      },
+      "cta": {
+        "url": "/tools/image-to-video",
+        "kind": "studio-tool",
+        "label": {
+          "en": "Animate Photo in Studio",
+          "zh": "用图生视频制作"
+        }
+      },
+      "overallRank": 20
+    },
+    {
+      "id": "bulin-47",
+      "trendKey": "bulin 47",
+      "hashtag": "#bulin47",
+      "aliases": [],
+      "category": "dance-motion",
+      "categoryRank": 4,
+      "signal": "hot",
+      "isNew": true,
+      "delta24h": 0,
+      "totalViews": 52130000,
+      "creatorAccounts": 92,
+      "momentumScore": 276000,
+      "firstSeen": {
+        "hoursAgo": 816,
+        "en": "34 days ago",
+        "zh": "34 天前"
+      },
+      "title": {
+        "en": "Dembow Shoulder-Bounce Freestyle Dance",
+        "zh": "拉美街头抖肩说唱舞"
+      },
+      "description": {
+        "en": "High-energy Latin freestyle dance format (52M+ total views) animating any static character photo with signature shoulder-bounce choreography.",
+        "zh": "累计超 5213 万播放的热门拉美律动舞，让静态照片人物做出极具感染力的标志性抖肩与说唱手势"
+      },
+      "cta": {
+        "url": "/tools/image-to-video",
+        "kind": "studio-tool",
+        "label": {
+          "en": "Animate Photo in Studio",
+          "zh": "用图生视频制作"
+        }
+      },
+      "overallRank": 21
+    },
+    {
+      "id": "michael-jackson",
+      "trendKey": "michael jackson",
+      "hashtag": "#michaeljackson",
+      "aliases": [],
+      "category": "dance-motion",
+      "categoryRank": 5,
+      "signal": "rising",
+      "isNew": true,
+      "delta24h": 6921,
+      "totalViews": 5060000,
+      "creatorAccounts": 88,
+      "momentumScore": 270921,
+      "firstSeen": {
+        "hoursAgo": 408,
+        "en": "17 days ago",
+        "zh": "17 天前"
+      },
+      "title": {
+        "en": "Retro Zombie Pop Choreography Clip",
+        "zh": "复古僵尸齐舞卡点视频"
+      },
+      "description": {
+        "en": "Animates a single portrait into synchronized retro spooky dance moves with dramatic night-fog lighting.",
+        "zh": "将人物照片驱动为戏剧感十足的复古暗夜节拍齐舞短视频"
+      },
+      "cta": {
+        "url": "/tools/image-to-video",
+        "kind": "studio-tool",
+        "label": {
+          "en": "Animate Photo in Studio",
+          "zh": "用图生视频制作"
+        }
+      },
+      "overallRank": 22
+    },
+    {
+      "id": "pranking-my-friends-with-the-bob-filter",
+      "trendKey": "pranking my friends with the bob filter",
+      "hashtag": "#prankingmyfriendswiththebobfilter",
+      "aliases": [],
+      "category": "photo-restyle",
+      "categoryRank": 3,
+      "signal": "rising",
+      "isNew": true,
+      "delta24h": 0,
+      "totalViews": 4010000,
+      "creatorAccounts": 88,
+      "momentumScore": 264000,
+      "firstSeen": {
+        "hoursAgo": 816,
+        "en": "34 days ago",
+        "zh": "34 天前"
+      },
+      "title": {
+        "en": "Big-Head Bobblehead Friend Prank",
+        "zh": "大头摇头娃娃恶搞朋友滤镜"
+      },
+      "description": {
+        "en": "Exaggerates head proportions on group or friend photos into playful bobblehead caricatures built for group-chat reactions.",
+        "zh": "把朋友照片处理成夸张搞笑的大头摇头娃娃比例，非常适合好友群聊整蛊互动"
+      },
+      "cta": {
+        "url": "/effects/ai-caricature",
+        "kind": "direct-effect",
+        "label": {
+          "en": "Try AI Caricature",
+          "zh": "生成同款大头漫画"
+        },
+        "previewImage": "/samples/ai-caricature.jpg"
+      },
+      "overallRank": 23
+    },
+    {
+      "id": "no-scrubs",
+      "trendKey": "no scrubs",
+      "hashtag": "#noscrubs",
+      "aliases": [],
+      "category": "dance-motion",
+      "categoryRank": 6,
+      "signal": "rising",
+      "isNew": true,
+      "delta24h": 134244,
+      "totalViews": 577000,
+      "creatorAccounts": 40,
+      "momentumScore": 254244,
+      "firstSeen": {
+        "hoursAgo": 600,
+        "en": "25 days ago",
+        "zh": "25 天前"
+      },
+      "title": {
+        "en": "90s R&B Throwback Routine",
+        "zh": "90 年代复古 R&B 律动舞"
+      },
+      "description": {
+        "en": "Turns one standing portrait into crisp late-90s R&B music-video choreography with smooth hip-and-arm groove.",
+        "zh": "只需一张正面半身或全身照，即可生成流畅复刻 90 年代经典 R&B 律动的舞蹈短片"
+      },
+      "cta": {
+        "url": "/tools/image-to-video",
+        "kind": "studio-tool",
+        "label": {
+          "en": "Animate Photo in Studio",
+          "zh": "用图生视频制作"
+        }
+      },
+      "overallRank": 24
+    },
+    {
+      "id": "jean-phil",
+      "trendKey": "jean phil",
+      "hashtag": "#jeanphil",
+      "aliases": ["toc toc"],
+      "category": "dance-motion",
+      "categoryRank": 7,
+      "signal": "rising",
+      "isNew": true,
+      "delta24h": 15,
+      "totalViews": 3100000,
+      "creatorAccounts": 79,
+      "momentumScore": 237015,
+      "firstSeen": {
+        "hoursAgo": 816,
+        "en": "34 days ago",
+        "zh": "34 天前"
+      },
+      "title": {
+        "en": "Toc-Toc Bodybuilder Comedy Dance",
+        "zh": "肌肉猛男反差萌律动舞"
+      },
+      "description": {
+        "en": "Pairs an exaggerated muscular physique restyle with upbeat comedic dance moves for high-shareability reaction clips.",
+        "zh": "把普通人像变成夸张健美肌肉身材并配合欢快节奏跳舞，凭强烈反差感收获高转发"
+      },
+      "cta": {
+        "url": "/effects/ai-muscle-generator",
+        "kind": "direct-effect",
+        "label": {
+          "en": "Try AI Muscle Generator",
+          "zh": "体验 AI 肌肉生成"
+        }
+      },
+      "overallRank": 25
+    },
+    {
+      "id": "en-bas",
+      "trendKey": "en bas",
+      "hashtag": "#enbas",
+      "aliases": ["post super trendy", "reproduire facilement les mouvements"],
+      "category": "dance-motion",
+      "categoryRank": 8,
+      "signal": "rising",
+      "isNew": true,
+      "delta24h": 0,
+      "totalViews": 3460000,
+      "creatorAccounts": 71,
+      "momentumScore": 213000,
+      "firstSeen": {
+        "hoursAgo": 792,
+        "en": "33 days ago",
+        "zh": "33 天前"
+      },
+      "title": {
+        "en": "French Reels Viral Routine",
+        "zh": "法语区热门跟拍卡点舞"
+      },
+      "description": {
+        "en": "One-photo dance transfer format popular across French TikTok and Instagram Reels for effortless choreographed clips.",
+        "zh": "在法语 TikTok 与 Reels 流行的单图舞蹈玩法，保持人物穿搭不变完成整套热舞动作"
+      },
+      "cta": {
+        "url": "/tools/image-to-video",
+        "kind": "studio-tool",
+        "label": {
+          "en": "Animate Photo in Studio",
+          "zh": "用图生视频制作"
+        }
+      },
+      "overallRank": 26
+    },
+    {
+      "id": "mermaid",
+      "trendKey": "mermaid",
+      "hashtag": "#mermaid",
+      "aliases": [],
+      "category": "photo-restyle",
+      "categoryRank": 4,
+      "signal": "rising",
+      "isNew": true,
+      "delta24h": 144422,
+      "totalViews": 854000,
+      "creatorAccounts": 6,
+      "momentumScore": 162422,
+      "firstSeen": {
+        "hoursAgo": 480,
+        "en": "20 days ago",
+        "zh": "20 天前"
+      },
+      "title": {
+        "en": "Underwater Mermaid Fantasy Portrait",
+        "zh": "梦幻海底美人鱼写真"
+      },
+      "description": {
+        "en": "Transforms an everyday portrait into a glowing underwater mermaid scene with iridescent scales, coral reefs, and surface light rays.",
+        "zh": "将日常照片转换为梦幻海底美人鱼肖像，带有虹彩鱼尾、珊瑚礁与穿透海面的丁达尔光效"
+      },
+      "cta": {
+        "url": "/effects/ai-mermaid-filter",
+        "kind": "direct-effect",
+        "label": {
+          "en": "Try AI Mermaid Filter",
+          "zh": "拍同款美人鱼写真"
+        },
+        "previewImage": "/samples/ai-mermaid-filter.jpg"
+      },
+      "overallRank": 27
+    },
+    {
+      "id": "sirene",
+      "trendKey": "sirene",
+      "hashtag": "#sirene",
+      "aliases": [],
+      "category": "photo-restyle",
+      "categoryRank": 5,
+      "signal": "rising",
+      "isNew": true,
+      "delta24h": 141698,
+      "totalViews": 467000,
+      "creatorAccounts": 4,
+      "momentumScore": 153698,
+      "firstSeen": {
+        "hoursAgo": 72,
+        "en": "3 days ago",
+        "zh": "3 天前"
+      },
+      "title": {
+        "en": "Bioluminescent Ocean Siren Restyle",
+        "zh": "深海发光人鱼公主写真"
+      },
+      "description": {
+        "en": "French-tagged variant of the mermaid portrait wave emphasizing bioluminescent water particles and ethereal ocean styling.",
+        "zh": "法语区走红的深海人鱼公主风格改图，突出梦幻荧光水母粒子与深海仙气妆造"
+      },
+      "cta": {
+        "url": "/effects/ai-mermaid-filter",
+        "kind": "direct-effect",
+        "label": {
+          "en": "Try AI Mermaid Filter",
+          "zh": "拍同款美人鱼写真"
+        },
+        "previewImage": "/samples/ai-mermaid-filter.jpg"
+      },
+      "overallRank": 28
+    },
+    {
+      "id": "swaydance",
+      "trendKey": "swaydance",
+      "hashtag": "#swaydance",
+      "aliases": ["babydance"],
+      "category": "dance-motion",
+      "categoryRank": 9,
+      "signal": "new",
+      "isNew": true,
+      "delta24h": 9898,
+      "totalViews": 3910000,
+      "creatorAccounts": 46,
+      "momentumScore": 147898,
+      "firstSeen": {
+        "hoursAgo": 672,
+        "en": "28 days ago",
+        "zh": "28 天前"
+      },
+      "title": {
+        "en": "Sway & Baby Bounce Dance",
+        "zh": "摇摆萌娃节奏舞"
+      },
+      "description": {
+        "en": "Smooth side-to-side sway animation widely used on baby and portrait photos for cheerful vertical clips.",
+        "zh": "常用于宝宝与呆萌人像照片的左右摇摆舞蹈玩法，动作灵动自然"
+      },
+      "cta": {
+        "url": "/effects/ai-baby-dance",
+        "kind": "direct-effect",
+        "label": {
+          "en": "Try AI Baby Dance",
+          "zh": "生成 AI 宝宝跳舞"
+        },
+        "previewImage": "/samples/ai-baby-dance.jpg"
+      },
+      "overallRank": 29
+    },
+    {
+      "id": "baile",
+      "trendKey": "baile",
+      "hashtag": "#baile",
+      "aliases": [],
+      "category": "dance-motion",
+      "categoryRank": 10,
+      "signal": "hot",
+      "isNew": true,
+      "delta24h": 2,
+      "totalViews": 33870000,
+      "creatorAccounts": 48,
+      "momentumScore": 144002,
+      "firstSeen": {
+        "hoursAgo": 720,
+        "en": "30 days ago",
+        "zh": "30 天前"
+      },
+      "title": {
+        "en": "Latin Beat One-Photo Dance",
+        "zh": "拉丁热曲一键跳舞模板"
+      },
+      "description": {
+        "en": "Over 33.8M cumulative views across Spanish-language TikTok turning static portraits into upbeat Latin dance routines.",
+        "zh": "西语区累计超 3387 万播放的热门舞蹈玩法，一张静态照片即可跳出欢快拉丁舞步"
+      },
+      "cta": {
+        "url": "/tools/image-to-video",
+        "kind": "studio-tool",
+        "label": {
+          "en": "Animate Photo in Studio",
+          "zh": "用图生视频制作"
+        }
+      },
+      "overallRank": 30
+    },
+    {
+      "id": "gangnam-style",
+      "trendKey": "gangnam style",
+      "hashtag": "#gangnamstyle",
+      "aliases": [],
+      "category": "dance-motion",
+      "categoryRank": 11,
+      "signal": "new",
+      "isNew": true,
+      "delta24h": 0,
+      "totalViews": 3460000,
+      "creatorAccounts": 48,
+      "momentumScore": 144000,
+      "firstSeen": {
+        "hoursAgo": 648,
+        "en": "27 days ago",
+        "zh": "27 天前"
+      },
+      "title": {
+        "en": "Classic K-Pop Horse-Riding Dance",
+        "zh": "经典骑马舞魔性复刻"
+      },
+      "description": {
+        "en": "Nostalgic crowd-pleaser animating portraits or characters into 10-second K-pop horse-riding dance clips.",
+        "zh": "让任意人物照片一键跳起高辨识度的经典骑马舞动作，输出竖屏搞笑短视频"
+      },
+      "cta": {
+        "url": "/tools/image-to-video",
+        "kind": "studio-tool",
+        "label": {
+          "en": "Animate Photo in Studio",
+          "zh": "用图生视频制作"
+        }
+      },
+      "overallRank": 31
+    },
+    {
+      "id": "van-damme",
+      "trendKey": "van damme",
+      "hashtag": "#vandamme",
+      "aliases": [],
+      "category": "dance-motion",
+      "categoryRank": 12,
+      "signal": "new",
+      "isNew": true,
+      "delta24h": 0,
+      "totalViews": 3220000,
+      "creatorAccounts": 47,
+      "momentumScore": 141000,
+      "firstSeen": {
+        "hoursAgo": 696,
+        "en": "29 days ago",
+        "zh": "29 天前"
+      },
+      "title": {
+        "en": "80s Retro Funk Groove & Split",
+        "zh": "复古巴西 Funk 律动舞"
+      },
+      "description": {
+        "en": "Combines vintage 80s film grain with smooth Brazilian funk footwork from a single uploaded photo.",
+        "zh": "结合复古胶片滤镜与巴西 Funk 律动舞步，将静态人像变为动感怀旧短片"
+      },
+      "cta": {
+        "url": "/tools/image-to-video",
+        "kind": "studio-tool",
+        "label": {
+          "en": "Animate Photo in Studio",
+          "zh": "用图生视频制作"
+        }
+      },
+      "overallRank": 32
+    },
+    {
+      "id": "bad-times",
+      "trendKey": "bad times",
+      "hashtag": "#badtimes",
+      "aliases": [],
+      "category": "dance-motion",
+      "categoryRank": 13,
+      "signal": "new",
+      "isNew": true,
+      "delta24h": 0,
+      "totalViews": 2300000,
+      "creatorAccounts": 47,
+      "momentumScore": 141000,
+      "firstSeen": {
+        "hoursAgo": 792,
+        "en": "33 days ago",
+        "zh": "33 天前"
+      },
+      "title": {
+        "en": "Mini Character Hip-Hop Groove",
+        "zh": "萌系角色嘻哈街舞"
+      },
+      "description": {
+        "en": "Animates baby portraits or stylized characters into upbeat hip-hop footwork timed to catchy vocal hooks.",
+        "zh": "将宝宝照片或可爱角色驱动为踩点精准的嘻哈街舞短视频"
+      },
+      "cta": {
+        "url": "/effects/ai-baby-dance",
+        "kind": "direct-effect",
+        "label": {
+          "en": "Try AI Baby Dance",
+          "zh": "生成 AI 宝宝跳舞"
+        },
+        "previewImage": "/samples/ai-baby-dance.jpg"
+      },
+      "overallRank": 33
+    },
+    {
+      "id": "poner-aretes",
+      "trendKey": "poner aretes",
+      "hashtag": "#poneraretes",
+      "aliases": ["pusiera esto", "brackets en una"],
+      "category": "photo-restyle",
+      "categoryRank": 6,
+      "signal": "new",
+      "isNew": true,
+      "delta24h": 0,
+      "totalViews": 1240000,
+      "creatorAccounts": 47,
+      "momentumScore": 141000,
+      "firstSeen": {
+        "hoursAgo": 600,
+        "en": "25 days ago",
+        "zh": "25 天前"
+      },
+      "title": {
+        "en": "Virtual Jewelry & Piercing Try-On",
+        "zh": "AI 虚拟耳饰与配饰试戴对比"
+      },
+      "description": {
+        "en": "Before-and-after photo restyle trend where creators preview earrings, studs, or accessories on their own selfie.",
+        "zh": "上传自拍生成佩戴耳环或精致饰品的前后对比图，低成本预览配饰上脸效果"
+      },
+      "cta": {
+        "url": "/tools/ai-image-generator",
+        "kind": "studio-tool",
+        "label": {
+          "en": "Create in Image Studio",
+          "zh": "去 AI 生图制作"
+        }
+      },
+      "overallRank": 34
+    },
+    {
+      "id": "ice-baby",
+      "trendKey": "ice baby",
+      "hashtag": "#icebaby",
+      "aliases": [],
+      "category": "dance-motion",
+      "categoryRank": 14,
+      "signal": "new",
+      "isNew": true,
+      "delta24h": 0,
+      "totalViews": 728000,
+      "creatorAccounts": 45,
+      "momentumScore": 135000,
+      "firstSeen": {
+        "hoursAgo": 192,
+        "en": "8 days ago",
+        "zh": "8 天前"
+      },
+      "title": {
+        "en": "Old-School Beat Step Routine",
+        "zh": "复古说唱踩点舞"
+      },
+      "description": {
+        "en": "Drives a single standing portrait through crisp old-school hip-hop step choreography.",
+        "zh": "上传单人站姿照片，自动生成跟随经典复古说唱节拍律动的舞蹈视频"
+      },
+      "cta": {
+        "url": "/tools/image-to-video",
+        "kind": "studio-tool",
+        "label": {
+          "en": "Animate Photo in Studio",
+          "zh": "用图生视频制作"
+        }
+      },
+      "overallRank": 35
+    },
+    {
+      "id": "iphone-kupi",
+      "trendKey": "iphone kupi",
+      "hashtag": "#iphonekupi",
+      "aliases": [],
+      "category": "dance-motion",
+      "categoryRank": 15,
+      "signal": "new",
+      "isNew": true,
+      "delta24h": 0,
+      "totalViews": 4060000,
+      "creatorAccounts": 44,
+      "momentumScore": 132000,
+      "firstSeen": {
+        "hoursAgo": 504,
+        "en": "21 days ago",
+        "zh": "21 天前"
+      },
+      "title": {
+        "en": "iPhone Kupi Viral Beat Dance",
+        "zh": "iPhone Kupi 魔性洗脑舞"
+      },
+      "description": {
+        "en": "Over 4M plays across Eastern European and global TikTok feeds turning everyday portraits into catchy beat-synced dances.",
+        "zh": "海外破 406 万播放的洗脑神曲舞蹈玩法，一张照片即可生成踩点魔性舞步"
+      },
+      "cta": {
+        "url": "/tools/image-to-video",
+        "kind": "studio-tool",
+        "label": {
+          "en": "Animate Photo in Studio",
+          "zh": "用图生视频制作"
+        }
+      },
+      "overallRank": 36
+    },
+    {
+      "id": "gratis-o-consejos",
+      "trendKey": "gratis o consejos",
+      "hashtag": "#gratisoconsejos",
+      "aliases": ["guarda este magnific"],
+      "category": "photo-restyle",
+      "categoryRank": 7,
+      "signal": "new",
+      "isNew": true,
+      "delta24h": 0,
+      "totalViews": 22000,
+      "creatorAccounts": 35,
+      "momentumScore": 105000,
+      "firstSeen": {
+        "hoursAgo": 312,
+        "en": "13 days ago",
+        "zh": "13 天前"
+      },
+      "title": {
+        "en": "Painted Body-Art Aesthetic Portrait",
+        "zh": "几何彩绘艺术风格肖像"
+      },
+      "description": {
+        "en": "Applies bold geometric color-block painting aesthetics to portrait photography inspired by iconic indie music-video art.",
+        "zh": "将人像照片重绘为几何色块油彩艺术风格，呈现鲜明的独立视觉海报质感"
+      },
+      "cta": {
+        "url": "/tools/ai-image-generator",
+        "kind": "studio-tool",
+        "label": {
+          "en": "Create in Image Studio",
+          "zh": "去 AI 生图制作"
+        }
+      },
+      "overallRank": 37
+    },
+    {
+      "id": "google",
+      "trendKey": "google",
+      "hashtag": "#google",
+      "aliases": [],
+      "category": "photo-restyle",
+      "categoryRank": 8,
+      "signal": "new",
+      "isNew": true,
+      "delta24h": 0,
+      "totalViews": 5950000,
+      "creatorAccounts": 32,
+      "momentumScore": 96000,
+      "firstSeen": {
+        "hoursAgo": 768,
+        "en": "32 days ago",
+        "zh": "32 天前"
+      },
+      "title": {
+        "en": "One-Shot AI Studio Portrait Filter",
+        "zh": "一键影棚级质感人像滤镜"
+      },
+      "description": {
+        "en": "Clean studio lighting and color-graded portrait restyling from casual phone selfies.",
+        "zh": "把日常随手拍手机照片重塑为影棚级布光与细腻色调的质感人像"
+      },
+      "cta": {
+        "url": "/tools/ai-image-generator",
+        "kind": "studio-tool",
+        "label": {
+          "en": "Create in Image Studio",
+          "zh": "去 AI 生图制作"
+        }
+      },
+      "overallRank": 38
+    },
+    {
+      "id": "short-boyfriend",
+      "trendKey": "short boyfriend",
+      "hashtag": "#shortboyfriend",
+      "aliases": [],
+      "category": "photo-restyle",
+      "categoryRank": 9,
+      "signal": "new",
+      "isNew": true,
+      "delta24h": 0,
+      "totalViews": 38000,
+      "creatorAccounts": 30,
+      "momentumScore": 90000,
+      "firstSeen": {
+        "hoursAgo": 504,
+        "en": "21 days ago",
+        "zh": "21 天前"
+      },
+      "title": {
+        "en": "Exaggerated Couple Height-Gap Meme",
+        "zh": "夸张身高差情侣搞笑合照"
+      },
+      "description": {
+        "en": "Playful couple photo edit exaggerating height differences for light-hearted comedy trends on TikTok.",
+        "zh": "上传情侣照片生成戏剧化反差身高差的幽默合照，适合情侣账号互动玩梗"
+      },
+      "cta": {
+        "url": "/tools/ai-image-generator",
+        "kind": "studio-tool",
+        "label": {
+          "en": "Create in Image Studio",
+          "zh": "去 AI 生图制作"
+        }
+      },
+      "overallRank": 39
+    },
+    {
+      "id": "caricature",
+      "trendKey": "caricature",
+      "hashtag": "#caricature",
+      "aliases": [],
+      "category": "photo-restyle",
+      "categoryRank": 10,
+      "signal": "new",
+      "isNew": true,
+      "delta24h": 0,
+      "totalViews": 1260000,
+      "creatorAccounts": 28,
+      "momentumScore": 84000,
+      "firstSeen": {
+        "hoursAgo": 600,
+        "en": "25 days ago",
+        "zh": "25 天前"
+      },
+      "title": {
+        "en": "Hand-Drawn Big-Head Caricature",
+        "zh": "手绘夸张大头漫画头像"
+      },
+      "description": {
+        "en": "Converts solo portraits, couples, or pets into expressive hand-drawn caricatures with bold ink lines and recognizable features.",
+        "zh": "将单人、情侣或宠物照片转换成线条鲜明、五官神似又夸张逗趣的手绘大头漫画"
+      },
+      "cta": {
+        "url": "/effects/ai-caricature",
+        "kind": "direct-effect",
+        "label": {
+          "en": "Try AI Caricature",
+          "zh": "生成同款大头漫画"
+        },
+        "previewImage": "/samples/ai-caricature.jpg"
+      },
+      "overallRank": 40
+    },
+    {
+      "id": "sweater",
+      "trendKey": "sweater",
+      "hashtag": "#sweater",
+      "aliases": [],
+      "category": "photo-restyle",
+      "categoryRank": 11,
+      "signal": "new",
+      "isNew": true,
+      "delta24h": 24663,
+      "totalViews": 435000,
+      "creatorAccounts": 16,
+      "momentumScore": 72663,
+      "firstSeen": {
+        "hoursAgo": 48,
+        "en": "2 days ago",
+        "zh": "2 天前"
+      },
+      "title": {
+        "en": "Eye-Matched Knit Sweater Portrait",
+        "zh": "瞳色呼应针织毛衣电影感写真"
+      },
+      "description": {
+        "en": "Pairs a subject's portrait with a custom-colored chunky knit sweater tuned to accentuate eye color and cinematic contrast.",
+        "zh": "根据人物气质与眼神细节生成特定配色的粗针毛衣质感肖像，突出冷暖视觉反差"
+      },
+      "cta": {
+        "url": "/effects/colored-sweater-ai",
+        "kind": "direct-effect",
+        "label": {
+          "en": "Try Colored Sweater AI",
+          "zh": "拍同款彩色毛衣照"
+        },
+        "previewImage": "/samples/colored-sweater-ai.jpg"
+      },
+      "overallRank": 41
+    },
+    {
+      "id": "edicion",
+      "trendKey": "edicion",
+      "hashtag": "#edicion",
+      "aliases": [],
+      "category": "photo-restyle",
+      "categoryRank": 12,
+      "signal": "new",
+      "isNew": true,
+      "delta24h": 38338,
+      "totalViews": 39000,
+      "creatorAccounts": 5,
+      "momentumScore": 53338,
+      "firstSeen": {
+        "hoursAgo": 240,
+        "en": "10 days ago",
+        "zh": "10 天前"
+      },
+      "title": {
+        "en": "Creative Prompt Photo Restyle",
+        "zh": "创意指令氛围感改图"
+      },
+      "description": {
+        "en": "Spanish-language creator trend transforming ordinary snapshots into stylized editorial scenes with single-sentence prompts.",
+        "zh": "西语区热门的一句话创意改图玩法，将日常抓拍升级为杂志感视觉大片"
+      },
+      "cta": {
+        "url": "/tools/ai-image-generator",
+        "kind": "studio-tool",
+        "label": {
+          "en": "Create in Image Studio",
+          "zh": "去 AI 生图制作"
+        }
+      },
+      "overallRank": 42
+    },
+    {
+      "id": "titanic",
+      "trendKey": "titanic",
+      "hashtag": "#titanic",
+      "aliases": [],
+      "category": "photo-restyle",
+      "categoryRank": 13,
+      "signal": "new",
+      "isNew": true,
+      "delta24h": 0,
+      "totalViews": 2822,
+      "creatorAccounts": 15,
+      "momentumScore": 45000,
+      "firstSeen": {
+        "hoursAgo": 17,
+        "en": "17 hours ago",
+        "zh": "17 小时前"
+      },
+      "title": {
+        "en": "Sunset Ocean Liner Deck Portrait",
+        "zh": "落日邮轮甲板复古电影照"
+      },
+      "description": {
+        "en": "Reimagines a portrait in a golden-hour vintage ocean liner bow scene with warm cinematic wind and ocean horizon lighting.",
+        "zh": "将个人照片融入金色夕阳下的复古远洋邮轮甲板场景，营造经典浪漫电影质感"
+      },
+      "cta": {
+        "url": "/tools/ai-image-generator",
+        "kind": "studio-tool",
+        "label": {
+          "en": "Create in Image Studio",
+          "zh": "去 AI 生图制作"
+        }
+      },
+      "overallRank": 43
+    },
+    {
+      "id": "selflove",
+      "trendKey": "selflove",
+      "hashtag": "#selflove",
+      "aliases": [],
+      "category": "photo-restyle",
+      "categoryRank": 14,
+      "signal": "new",
+      "isNew": true,
+      "delta24h": 1790,
+      "totalViews": 13000,
+      "creatorAccounts": 8,
+      "momentumScore": 25790,
+      "firstSeen": {
+        "hoursAgo": 24,
+        "en": "1 day ago",
+        "zh": "1 天前"
+      },
+      "title": {
+        "en": "Pencil-Sketch Back-Hug Portrait",
+        "zh": "铅笔素描背后拥抱治愈照"
+      },
+      "description": {
+        "en": "Blends photography and pencil illustration so a hand-sketched version of the subject wraps them in a warm hug from behind.",
+        "zh": "将实拍照片与铅笔手绘结合，让素描版的自己从背后给出温暖拥抱，传递治愈情绪"
+      },
+      "cta": {
+        "url": "/effects/ai-hug-video",
+        "kind": "direct-effect",
+        "label": {
+          "en": "Try AI Hug Video",
+          "zh": "生成 AI 拥抱视频"
+        }
+      },
+      "overallRank": 44
+    },
+    {
+      "id": "blue-casual",
+      "trendKey": "blue casual",
+      "hashtag": "#bluecasual",
+      "aliases": ["double portrait"],
+      "category": "photo-restyle",
+      "categoryRank": 15,
+      "signal": "new",
+      "isNew": true,
+      "delta24h": 9434,
+      "totalViews": 305000,
+      "creatorAccounts": 2,
+      "momentumScore": 15434,
+      "firstSeen": {
+        "hoursAgo": 696,
+        "en": "29 days ago",
+        "zh": "29 天前"
+      },
+      "title": {
+        "en": "Blue Casual Double-Exposure Portrait",
+        "zh": "蓝调休闲双重曝光海报照"
+      },
+      "description": {
+        "en": "Creates a cool-toned magazine double-portrait composition layering two angles of the same person in coordinated blue casual wear.",
+        "zh": "用一张照片生成清冷蓝调穿搭的双人叠影写真，自带时尚杂志双重曝光海报感"
+      },
+      "cta": {
+        "url": "/tools/ai-image-generator",
+        "kind": "studio-tool",
+        "label": {
+          "en": "Create in Image Studio",
+          "zh": "去 AI 生图制作"
+        }
+      },
+      "overallRank": 45
+    }
+  ]
+}

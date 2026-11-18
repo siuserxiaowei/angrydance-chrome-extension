@@ -1,0 +1,597 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Angry Dance AI — Open-Source Chrome Extension (MV3) &amp; 2026 Viral AI Video Trend Dataset</title>
+    <meta
+      name="description"
+      content="Open-source Manifest V3 Chrome Extension and CC BY 4.0 2026 Viral AI Photo-to-Video Trend Dataset for Angry Dance (angrydance.com). Animate portraits, dog &amp; cat dance clips, and AI hug videos from one photo."
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://siuserxiaowei.github.io/angrydance-chrome-extension/" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Angry Dance AI — Chrome Extension &amp; 2026 Viral AI Video Trend Dataset" />
+    <meta
+      property="og:description"
+      content="Lightweight Manifest V3 browser companion (contextMenus-only) and CC BY 4.0 dataset of 45 ranked single-photo AI video trends."
+    />
+    <meta property="og:url" content="https://siuserxiaowei.github.io/angrydance-chrome-extension/" />
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "name": "Angry Dance AI Chrome Extension",
+      "applicationCategory": "MultimediaApplication",
+      "operatingSystem": "Chrome, Edge, Chromium",
+      "softwareVersion": "1.0.0",
+      "license": "https://opensource.org/licenses/MIT",
+      "url": "https://siuserxiaowei.github.io/angrydance-chrome-extension/",
+      "downloadUrl": "https://github.com/siuserxiaowei/angrydance-chrome-extension/releases/tag/v1.0.0",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Angry Dance",
+        "url": "https://angrydance.com/"
+      }
+    },
+    {
+      "@type": "Dataset",
+      "name": "Angry Dance 2026 Viral AI Photo-to-Video & Dance Trend Dataset",
+      "description": "Open CC BY 4.0 dataset of 45 ranked single-photo AI dance, pet motion, and image-to-video social video clusters distilled from 556 short-form formats.",
+      "url": "https://angrydance.com/trends",
+      "sameAs": "https://siuserxiaowei.github.io/angrydance-chrome-extension/",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "creator": {
+        "@type": "Organization",
+        "name": "Angry Dance",
+        "url": "https://angrydance.com/"
+      }
+    }
+  ]
+}
+    </script>
+    <style>
+      :root {
+        --paper: #f8f0e3;
+        --surface: #fffaf1;
+        --field: #ffffff;
+        --ink: #1e2340;
+        --ink-72: rgba(30, 35, 64, 0.72);
+        --ink-54: rgba(30, 35, 64, 0.54);
+        --line: rgba(30, 35, 64, 0.15);
+        --line-strong: rgba(30, 35, 64, 0.3);
+        --brand: #d1360d;
+        --brand-hover: #b92e09;
+        --on-brand: #fff8ee;
+        --butter: #f6d86b;
+        --sage: #bfe0c9;
+        --sky: #9cc7f2;
+        --rose: #f0a0bf;
+        --f-ui: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Noto Sans SC', system-ui, sans-serif;
+        --f-mono: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --paper: #10122a;
+          --surface: #181b38;
+          --field: #1f2346;
+          --ink: #f8f0e3;
+          --ink-72: rgba(248, 240, 227, 0.74);
+          --ink-54: rgba(248, 240, 227, 0.54);
+          --line: rgba(248, 240, 227, 0.14);
+          --line-strong: rgba(248, 240, 227, 0.3);
+        }
+      }
+      *, *::before, *::after { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background: var(--paper);
+        color: var(--ink);
+        font: 400 16px/1.6 var(--f-ui);
+        -webkit-font-smoothing: antialiased;
+      }
+      a { color: var(--brand); text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      .wrap { max-width: 1080px; margin: 0 auto; padding: 28px 20px 64px; }
+      header.nav {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 14px;
+        padding-bottom: 22px;
+        border-bottom: 1px solid var(--line);
+      }
+      .brand {
+        display: inline-flex;
+        align-items: center;
+        gap: 12px;
+        color: var(--ink);
+        font-weight: 800;
+        font-size: 20px;
+        letter-spacing: -0.02em;
+      }
+      .brand:hover { text-decoration: none; }
+      .brand img { width: 38px; height: 38px; border-radius: 10px; }
+      .nav-links { display: flex; flex-wrap: wrap; gap: 16px; font-size: 14.5px; font-weight: 600; }
+      .nav-links a { color: var(--ink); }
+      .nav-links a:hover { color: var(--brand); }
+      .hero {
+        margin-top: 28px;
+        padding: 34px 32px;
+        border-radius: 24px;
+        background:
+          radial-gradient(120% 120% at 100% 0%, rgba(246, 216, 107, 0.3), transparent 58%),
+          radial-gradient(100% 100% at 0% 100%, rgba(209, 54, 13, 0.1), transparent 60%),
+          var(--surface);
+        box-shadow: inset 0 0 0 1px var(--line-strong);
+      }
+      .eyebrow {
+        display: inline-block;
+        padding: 4px 11px;
+        border-radius: 999px;
+        background: var(--butter);
+        color: #1e2340;
+        font: 600 12px/1.2 var(--f-mono);
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+      h1 {
+        margin: 14px 0 12px;
+        font-size: clamp(28px, 4.4vw, 44px);
+        line-height: 1.1;
+        letter-spacing: -0.03em;
+      }
+      .lead { margin: 0 0 22px; max-width: 760px; font-size: 17.5px; color: var(--ink-72); }
+      .btn-row { display: flex; flex-wrap: wrap; gap: 12px; }
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        height: 44px;
+        padding: 0 20px;
+        border-radius: 999px;
+        font-weight: 650;
+        font-size: 15px;
+        color: var(--ink);
+        background: var(--surface);
+        box-shadow: inset 0 0 0 1px var(--line-strong);
+      }
+      .btn:hover { text-decoration: none; transform: translateY(-1px); }
+      .btn-primary { background: var(--brand); color: var(--on-brand); box-shadow: none; }
+      .btn-primary:hover { background: var(--brand-hover); }
+      section { margin-top: 42px; }
+      h2 { margin: 0 0 8px; font-size: 24px; letter-spacing: -0.02em; }
+      .sec-desc { margin: 0 0 18px; color: var(--ink-72); }
+      .grid-3 {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+        gap: 14px;
+      }
+      .card {
+        padding: 20px;
+        border-radius: 18px;
+        background: var(--surface);
+        box-shadow: inset 0 0 0 1px var(--line);
+      }
+      .card h3 { margin: 8px 0 6px; font-size: 17.5px; }
+      .card p { margin: 0 0 12px; font-size: 14.5px; color: var(--ink-72); }
+      .card-cta { font-weight: 650; font-size: 14px; }
+      .kpi-row {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+        gap: 12px;
+        margin-bottom: 18px;
+      }
+      .kpi {
+        padding: 16px 18px;
+        border-radius: 16px;
+        background: var(--surface);
+        box-shadow: inset 0 0 0 1px var(--line);
+      }
+      .kpi .val { font: 800 24px/1.15 var(--f-mono); }
+      .kpi .lbl { margin-top: 4px; font-size: 12.5px; color: var(--ink-72); }
+      .table-wrap {
+        overflow-x: auto;
+        border-radius: 18px;
+        background: var(--surface);
+        box-shadow: inset 0 0 0 1px var(--line);
+      }
+      table { width: 100%; border-collapse: collapse; font-size: 14px; }
+      th, td { padding: 12px 14px; text-align: left; border-bottom: 1px solid var(--line); vertical-align: top; }
+      th { font: 600 11.5px/1.2 var(--f-mono); text-transform: uppercase; letter-spacing: 0.05em; color: var(--ink-54); }
+      tr:last-child td { border-bottom: 0; }
+      .sub { font-size: 12.5px; color: var(--ink-72); margin-top: 2px; }
+      .mono { font-family: var(--f-mono); }
+      .num { text-align: right; white-space: nowrap; }
+      .badge {
+        display: inline-block;
+        padding: 3px 8px;
+        border-radius: 999px;
+        font: 600 11px/1.2 var(--f-mono);
+        color: #1e2340;
+        background: var(--butter);
+        white-space: nowrap;
+      }
+      .cat-photo-to-video { background: var(--sky); }
+      .cat-photo-restyle { background: var(--rose); }
+      .cat-dance-motion { background: var(--sage); }
+      .table-link { font-weight: 600; white-space: nowrap; }
+      pre {
+        margin: 10px 0 0;
+        padding: 14px 16px;
+        border-radius: 12px;
+        background: var(--field);
+        box-shadow: inset 0 0 0 1px var(--line);
+        overflow-x: auto;
+        font: 400 13px/1.5 var(--f-mono);
+      }
+      footer {
+        margin-top: 52px;
+        padding-top: 24px;
+        border-top: 1px solid var(--line);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 14px;
+        font-size: 14px;
+        color: var(--ink-72);
+      }
+      .footer-links { display: flex; flex-wrap: wrap; gap: 14px; }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="nav">
+        <a class="brand" href="https://angrydance.com/">
+          <img src="./favicon.svg" alt="Angry Dance Logo" width="38" height="38" />
+          <span>Angry Dance Open Ecosystem</span>
+        </a>
+        <nav class="nav-links" aria-label="Primary Links">
+          <a href="https://angrydance.com/">Web Studio (EN)</a>
+          <a href="https://angrydance.com/zh">中文工作台</a>
+          <a href="https://angrydance.com/effects">AI Effects</a>
+          <a href="https://angrydance.com/tools/image-to-video">Image to Video</a>
+          <a href="https://angrydance.com/trends">Live Trend Radar</a>
+          <a href="https://github.com/siuserxiaowei/angrydance-chrome-extension">GitHub Repo</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero">
+          <span class="eyebrow">Manifest V3 Extension · CC BY 4.0 Open Dataset</span>
+          <h1>Angry Dance Chrome Extension &amp; 2026 Viral AI Photo-to-Video Trend Dataset</h1>
+          <p class="lead">
+            Open-source browser launcher and right-click image companion for
+            <a href="https://angrydance.com/">Angry Dance</a> (<a href="https://angrydance.com/zh">愤怒之舞 AI 中文站</a>)
+            — turn a single portrait, couple photo, or pet snapshot into watermark-free AI dance, pet dance, and warm embrace clips powered by Kling 2.5 Turbo, Muse Video, Hailuo 2.3 Fast, and Nano Banana 2.
+          </p>
+          <div class="btn-row">
+            <a class="btn btn-primary" href="https://angrydance.com/">Open Angry Dance Studio →</a>
+            <a class="btn" href="https://github.com/siuserxiaowei/angrydance-chrome-extension/releases/tag/v1.0.0">Download Extension v1.0.0 (.zip)</a>
+            <a class="btn" href="https://angrydance.com/trends">Explore Live AI Trend Radar</a>
+            <a class="btn" href="https://angrydance.com/zh">访问中文站 (/zh)</a>
+          </div>
+        </section>
+
+        <section id="workflows">
+          <h2>Direct One-Photo AI Video Workflows</h2>
+          <p class="sec-desc">
+            Every launcher card inside the extension connects directly to a verified workflow on
+            <a href="https://angrydance.com/">angrydance.com</a> — upload one JPG, PNG, or WebP photo (up to 10 MB), preview exact credit cost upfront, and download watermark-free MP4 clips with automatic credit refunds if a run ever fails.
+          </p>
+          <div class="grid-3">
+            <article class="card">
+              <span class="badge cat-dance-motion">SIGNATURE DANCE</span>
+              <h3>Angry Dance AI Video Filter</h3>
+              <p>Animate any clear portrait or character photo into expressive high-energy Angry Dance choreography in vertical 9:16 format.</p>
+              <a class="card-cta" href="https://angrydance.com/effects/angry-dance">Try Angry Dance AI →</a>
+            </article>
+
+            <article class="card">
+              <span class="badge cat-dance-motion">PET MOTION</span>
+              <h3>Dog &amp; Cat Dance AI</h3>
+              <p>Turn sitting or standing dog and cat photos into viral hind-leg dance clips ready for TikTok, Reels, and YouTube Shorts.</p>
+              <a class="card-cta" href="https://angrydance.com/effects/dog-dance-ai">Dog Dance AI →</a>
+              &nbsp;·&nbsp;
+              <a class="card-cta" href="https://angrydance.com/effects/cat-dance-ai">Cat Dance AI →</a>
+            </article>
+
+            <article class="card">
+              <span class="badge cat-photo-to-video">WARM EMOTION</span>
+              <h3>AI Hug Video Generator</h3>
+              <p>Transform a two-person photo or beloved memory into a natural, heartfelt embrace animation in minutes.</p>
+              <a class="card-cta" href="https://angrydance.com/effects/ai-hug-video">Create AI Hug Video →</a>
+            </article>
+
+            <article class="card">
+              <span class="badge cat-photo-to-video">CUSTOM STUDIO</span>
+              <h3>Image-to-Video Studio</h3>
+              <p>Write custom camera &amp; motion prompts across Kling 2.5 Turbo, Muse Video, and Hailuo 2.3 Fast (5–10s clips).</p>
+              <a class="card-cta" href="https://angrydance.com/tools/image-to-video">Launch Image to Video →</a>
+            </article>
+
+            <article class="card">
+              <span class="badge">LIVE DATASET</span>
+              <h3>Daily Viral AI Trend Radar</h3>
+              <p>Interactive leaderboard tracking single-photo AI video &amp; photo-restyle formats surging across short-form platforms.</p>
+              <a class="card-cta" href="https://angrydance.com/trends">View Live Trend Leaderboard →</a>
+            </article>
+
+            <article class="card">
+              <span class="badge cat-photo-restyle">BILINGUAL / 中文</span>
+              <h3>Angry Dance 中文创作台</h3>
+              <p>原生支持中英双语界面，一键体验宠物跳舞、愤怒之舞、AI 拥抱与骑狮子特效，按次积分包无订阅套路。</p>
+              <a class="card-cta" href="https://angrydance.com/zh">打开 Angry Dance 中文版 →</a>
+            </article>
+          </div>
+        </section>
+
+        <section id="dataset">
+          <h2>2026 Viral AI Photo-to-Video Trend Dataset (Top 15 Snapshot · CC BY 4.0)</h2>
+          <p class="sec-desc">
+            Distilled from the open JSON snapshot (<code>dataset/public-trends-2026-11.json</code>) powering
+            <a href="https://angrydance.com/trends">angrydance.com/trends</a>. Ranked by
+            <code>24h View Delta + (Active Creator Accounts × 3,000)</code>.
+          </p>
+
+          <div class="kpi-row">
+            <div class="kpi">
+              <div class="val">556</div>
+              <div class="lbl">Short-Form Formats Scanned</div>
+            </div>
+            <div class="kpi">
+              <div class="val">348</div>
+              <div class="lbl">Single-Photo Eligible Clusters</div>
+            </div>
+            <div class="kpi">
+              <div class="val">+9,181,222</div>
+              <div class="lbl">24h View Delta (Top 45)</div>
+            </div>
+            <div class="kpi">
+              <div class="val">352,433,822</div>
+              <div class="lbl">Cumulative Views Tracked</div>
+            </div>
+          </div>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Rank</th>
+                  <th>Trend Cluster (EN / 中文)</th>
+                  <th>Category</th>
+                  <th class="num">24h Delta</th>
+                  <th class="num">Total Views</th>
+                  <th class="num">Creators</th>
+                  <th>Direct Workflow</th>
+                </tr>
+              </thead>
+              <tbody>
+            <tr>
+              <td class="mono">#1</td>
+              <td>
+                <strong>Deck the Halls Holiday Living-Room Dance</strong>
+                <div class="sub">圣诞客厅欢乐群舞短片 · <span class="mono">#homealone</span></div>
+              </td>
+              <td><span class="badge cat-dance-motion">dance-motion</span></td>
+              <td class="num mono">+1,198,672</td>
+              <td class="num mono">9,770,000</td>
+              <td class="num mono">15</td>
+              <td><a class="table-link" href="https://angrydance.com/effects/ai-christmas-photo">Try AI Christmas Photo →</a></td>
+            </tr>
+            <tr>
+              <td class="mono">#2</td>
+              <td>
+                <strong>Gothic Vampire Chapel Transformation</strong>
+                <div class="sub">哥特古堡吸血鬼变装转场 · <span class="mono">#vampirediaries</span></div>
+              </td>
+              <td><span class="badge cat-photo-to-video">photo-to-video</span></td>
+              <td class="num mono">+470,057</td>
+              <td class="num mono">29,660,000</td>
+              <td class="num mono">156</td>
+              <td><a class="table-link" href="https://angrydance.com/tools/image-to-video">Animate Photo in Studio →</a></td>
+            </tr>
+            <tr>
+              <td class="mono">#3</td>
+              <td>
+                <strong>Surreal Miniature &amp; Celebrity Entrance Clips</strong>
+                <div class="sub">超现实趣味出场特效合集 · <span class="mono">#creercette</span></div>
+              </td>
+              <td><span class="badge cat-photo-to-video">photo-to-video</span></td>
+              <td class="num mono">+851,624</td>
+              <td class="num mono">8,660,000</td>
+              <td class="num mono">28</td>
+              <td><a class="table-link" href="https://angrydance.com/tools/image-to-video">Animate Photo in Studio →</a></td>
+            </tr>
+            <tr>
+              <td class="mono">#4</td>
+              <td>
+                <strong>Hibidi Skibidi Beat-Sync Meme Clip</strong>
+                <div class="sub">Hibidi Skibidi 魔性卡点短片 · <span class="mono">#hibidiskibidi</span></div>
+              </td>
+              <td><span class="badge cat-photo-to-video">photo-to-video</span></td>
+              <td class="num mono">+829,751</td>
+              <td class="num mono">2,450,000</td>
+              <td class="num mono">25</td>
+              <td><a class="table-link" href="https://angrydance.com/tools/image-to-video">Animate Photo in Studio →</a></td>
+            </tr>
+            <tr>
+              <td class="mono">#5</td>
+              <td>
+                <strong>Open-World Action Loading Screen Intro</strong>
+                <div class="sub">开放世界游戏加载立绘大片 · <span class="mono">#grandtheftauto6</span></div>
+              </td>
+              <td><span class="badge cat-photo-to-video">photo-to-video</span></td>
+              <td class="num mono">+734,134</td>
+              <td class="num mono">734,000</td>
+              <td class="num mono">4</td>
+              <td><a class="table-link" href="https://angrydance.com/tools/image-to-video">Animate Photo in Studio →</a></td>
+            </tr>
+            <tr>
+              <td class="mono">#6</td>
+              <td>
+                <strong>Wassup Morphing Portrait Transition</strong>
+                <div class="sub">Wassup 动态变形卡点视频 · <span class="mono">#minutewassup</span></div>
+              </td>
+              <td><span class="badge cat-photo-to-video">photo-to-video</span></td>
+              <td class="num mono">+702,747</td>
+              <td class="num mono">2,960,000</td>
+              <td class="num mono">8</td>
+              <td><a class="table-link" href="https://angrydance.com/tools/image-to-video">Animate Photo in Studio →</a></td>
+            </tr>
+            <tr>
+              <td class="mono">#7</td>
+              <td>
+                <strong>Savanna Lion Riding Video</strong>
+                <div class="sub">草原骑狮子大片 · <span class="mono">#lionriding</span></div>
+              </td>
+              <td><span class="badge cat-photo-to-video">photo-to-video</span></td>
+              <td class="num mono">+592,875</td>
+              <td class="num mono">3,310,000</td>
+              <td class="num mono">35</td>
+              <td><a class="table-link" href="https://angrydance.com/effects/lion-riding-ai">Try Lion Riding AI →</a></td>
+            </tr>
+            <tr>
+              <td class="mono">#8</td>
+              <td>
+                <strong>Stadium Goal Celebration Highlight</strong>
+                <div class="sub">绿茵场进球高光时刻 · <span class="mono">#football</span></div>
+              </td>
+              <td><span class="badge cat-photo-to-video">photo-to-video</span></td>
+              <td class="num mono">+237,082</td>
+              <td class="num mono">36,500,000</td>
+              <td class="num mono">139</td>
+              <td><a class="table-link" href="https://angrydance.com/tools/image-to-video">Animate Photo in Studio →</a></td>
+            </tr>
+            <tr>
+              <td class="mono">#9</td>
+              <td>
+                <strong>Colored Sweater B&amp;W Portrait</strong>
+                <div class="sub">黑白电影感彩色毛衣肖像 · <span class="mono">#coloredsweater</span></div>
+              </td>
+              <td><span class="badge cat-photo-restyle">photo-restyle</span></td>
+              <td class="num mono">+537,179</td>
+              <td class="num mono">1,950,000</td>
+              <td class="num mono">20</td>
+              <td><a class="table-link" href="https://angrydance.com/effects/colored-sweater-ai">Try Colored Sweater AI →</a></td>
+            </tr>
+            <tr>
+              <td class="mono">#10</td>
+              <td>
+                <strong>Self-Embrace Healing Sketch</strong>
+                <div class="sub">自我拥抱治愈系素描照 · <span class="mono">#timismo</span></div>
+              </td>
+              <td><span class="badge cat-photo-restyle">photo-restyle</span></td>
+              <td class="num mono">+401,050</td>
+              <td class="num mono">3,390,000</td>
+              <td class="num mono">58</td>
+              <td><a class="table-link" href="https://angrydance.com/effects/ai-hug-video">Try AI Hug Video →</a></td>
+            </tr>
+            <tr>
+              <td class="mono">#11</td>
+              <td>
+                <strong>Snowy Holiday Sweater Portrait &amp; Clip</strong>
+                <div class="sub">飘雪圣诞树节日变装玩法 · <span class="mono">#christmas</span></div>
+              </td>
+              <td><span class="badge cat-dance-motion">dance-motion</span></td>
+              <td class="num mono">+243,790</td>
+              <td class="num mono">2,410,000</td>
+              <td class="num mono">103</td>
+              <td><a class="table-link" href="https://angrydance.com/effects/ai-christmas-photo">Try AI Christmas Photo →</a></td>
+            </tr>
+            <tr>
+              <td class="mono">#12</td>
+              <td>
+                <strong>Rabona Trick-Shot Football Clip</strong>
+                <div class="sub">插花脚神仙球射门短片 · <span class="mono">#lamineyamal</span></div>
+              </td>
+              <td><span class="badge cat-photo-to-video">photo-to-video</span></td>
+              <td class="num mono">+287,761</td>
+              <td class="num mono">19,120,000</td>
+              <td class="num mono">78</td>
+              <td><a class="table-link" href="https://angrydance.com/tools/image-to-video">Animate Photo in Studio →</a></td>
+            </tr>
+            <tr>
+              <td class="mono">#13</td>
+              <td>
+                <strong>Window Peek Comedy POV Scene</strong>
+                <div class="sub">窗外探头搞笑视角短片 · <span class="mono">#windowpeeper</span></div>
+              </td>
+              <td><span class="badge cat-photo-to-video">photo-to-video</span></td>
+              <td class="num mono">+1</td>
+              <td class="num mono">5,810,000</td>
+              <td class="num mono">166</td>
+              <td><a class="table-link" href="https://angrydance.com/tools/image-to-video">Animate Photo in Studio →</a></td>
+            </tr>
+            <tr>
+              <td class="mono">#14</td>
+              <td>
+                <strong>King Jin Boss-Walk Entrance</strong>
+                <div class="sub">霸气慢镜出场大片 · <span class="mono">#kingjin</span></div>
+              </td>
+              <td><span class="badge cat-photo-to-video">photo-to-video</span></td>
+              <td class="num mono">+348,347</td>
+              <td class="num mono">10,150,000</td>
+              <td class="num mono">37</td>
+              <td><a class="table-link" href="https://angrydance.com/tools/image-to-video">Animate Photo in Studio →</a></td>
+            </tr>
+            <tr>
+              <td class="mono">#15</td>
+              <td>
+                <strong>Street Drift Car Cinema Clip</strong>
+                <div class="sub">街头漂移赛车电影短片 · <span class="mono">#needforspeed</span></div>
+              </td>
+              <td><span class="badge cat-photo-to-video">photo-to-video</span></td>
+              <td class="num mono">+255,597</td>
+              <td class="num mono">1,650,000</td>
+              <td class="num mono">59</td>
+              <td><a class="table-link" href="https://angrydance.com/tools/image-to-video">Animate Photo in Studio →</a></td>
+            </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section id="extension-architecture">
+          <h2>Privacy-First Manifest V3 Architecture &amp; Citation</h2>
+          <div class="grid-3">
+            <div class="card">
+              <h3>Minimal Single Permission</h3>
+              <p>
+                Requests <code>"permissions": ["contextMenus"]</code> only. Zero <code>&lt;all_urls&gt;</code> host permissions, zero content scripts injected into web pages, and zero remote code execution.
+              </p>
+              <a class="card-cta" href="https://angrydance.com/privacy-policy">Read Privacy Policy →</a>
+            </div>
+            <div class="card">
+              <h3>Creator Referral &amp; API Ecosystem</h3>
+              <p>
+                AI newsletter writers, bloggers, and tutorial creators can share workflow guides and earn bonus video generation credits via the partner program.
+              </p>
+              <a class="card-cta" href="https://angrydance.com/invite">Creator Partner Program →</a>
+            </div>
+          </div>
+          <pre>&lt;p&gt;Data source: &lt;a href="https://angrydance.com/trends"&gt;Angry Dance 2026 Viral AI Photo-to-Video Trend Radar&lt;/a&gt; by &lt;a href="https://angrydance.com/"&gt;Angry Dance&lt;/a&gt; (CC BY 4.0).&lt;/p&gt;</pre>
+        </section>
+      </main>
+
+      <footer>
+        <div>
+          Maintained by <a href="https://angrydance.com/">Angry Dance</a> · Code MIT / Dataset CC BY 4.0
+        </div>
+        <div class="footer-links">
+          <a href="https://angrydance.com/">AngryDance.com</a>
+          <a href="https://angrydance.com/zh">中文站</a>
+          <a href="https://angrydance.com/effects/angry-dance">Angry Dance Filter</a>
+          <a href="https://angrydance.com/effects/dog-dance-ai">Dog Dance AI</a>
+          <a href="https://angrydance.com/effects/ai-hug-video">AI Hug Video</a>
+          <a href="https://angrydance.com/tools/image-to-video">Image to Video</a>
+          <a href="https://angrydance.com/trends">AI Trend Radar</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

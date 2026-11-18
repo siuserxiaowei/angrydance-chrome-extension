@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://siuserxiaowei.github.io/angrydance-chrome-extension/sitemap.xml

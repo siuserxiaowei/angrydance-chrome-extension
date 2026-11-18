@@ -1,0 +1,474 @@
+/*
+ * Angry Dance AI Chrome Extension Popup Styles
+ * Matches Angry Dance popstyle tokens (--paper, --ink, --brand, --butter, --sage, --sky, --rose)
+ */
+
+:root {
+  --paper: #f8f0e3;
+  --surface: #fffaf1;
+  --field: #ffffff;
+  --ink-base: 30 35 64;
+  --ink: #1e2340;
+  --ink-86: rgba(30, 35, 64, 0.86);
+  --ink-70: rgba(30, 35, 64, 0.72);
+  --ink-50: rgba(30, 35, 64, 0.54);
+  --line: rgba(30, 35, 64, 0.14);
+  --line-strong: rgba(30, 35, 64, 0.28);
+  --hover: rgba(30, 35, 64, 0.05);
+
+  --brand: #d1360d;
+  --brand-hover: #b92e09;
+  --on-brand: #fff8ee;
+
+  --rose: #f0a0bf;
+  --sky: #9cc7f2;
+  --butter: #f6d86b;
+  --sage: #bfe0c9;
+
+  --r1: 10px;
+  --r2: 16px;
+  --pill: 999px;
+
+  --shadow-lift:
+    0 1px 0 rgba(30, 35, 64, 0.06), 0 12px 24px -12px rgba(30, 35, 64, 0.28);
+
+  --f-ui:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC',
+    'Hiragino Sans GB', 'Noto Sans SC', system-ui, sans-serif;
+  --f-mono: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #10122a;
+    --surface: #181b38;
+    --field: #1f2346;
+    --ink: #f8f0e3;
+    --ink-86: rgba(248, 240, 227, 0.88);
+    --ink-70: rgba(248, 240, 227, 0.72);
+    --ink-50: rgba(248, 240, 227, 0.54);
+    --line: rgba(248, 240, 227, 0.14);
+    --line-strong: rgba(248, 240, 227, 0.3);
+    --hover: rgba(248, 240, 227, 0.07);
+    --shadow-lift:
+      0 1px 0 rgba(0, 0, 0, 0.35), 0 12px 24px -10px rgba(0, 0, 0, 0.65);
+    color-scheme: dark;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 376px;
+  background: var(--paper);
+  color: var(--ink);
+  font: 400 13px/1.45 var(--f-ui);
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+.shell {
+  display: flex;
+  flex-direction: column;
+  padding: 14px 14px 12px;
+  gap: 11px;
+}
+
+/* Header */
+.topbar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.brand-lockup {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+
+.brand-logo {
+  flex-shrink: 0;
+  width: 34px;
+  height: 34px;
+  border-radius: 9px;
+  box-shadow: 0 2px 8px rgba(209, 54, 13, 0.28);
+}
+
+.brand-copy {
+  min-width: 0;
+}
+
+.brand-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.brand-title {
+  font-weight: 800;
+  font-size: 15px;
+  letter-spacing: -0.025em;
+  line-height: 1.1;
+}
+
+.eyebrow-pill {
+  display: inline-block;
+  padding: 2px 6px;
+  border-radius: var(--pill);
+  font: 600 9.5px/1.2 var(--f-mono);
+  letter-spacing: 0.04em;
+  background: rgba(209, 54, 13, 0.12);
+  color: var(--brand);
+}
+
+@media (prefers-color-scheme: dark) {
+  .eyebrow-pill {
+    background: rgba(246, 216, 107, 0.15);
+    color: var(--butter);
+  }
+}
+
+.brand-subtitle {
+  margin: 2px 0 0;
+  font-size: 11.5px;
+  color: var(--ink-70);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.lang-pill {
+  flex-shrink: 0;
+  height: 26px;
+  padding: 0 10px;
+  border: 0;
+  border-radius: var(--pill);
+  background: var(--surface);
+  color: var(--ink-86);
+  font: 600 11px/1 var(--f-ui);
+  box-shadow: inset 0 0 0 1px var(--line-strong);
+  cursor: pointer;
+  transition:
+    background 0.15s ease,
+    transform 0.15s ease;
+}
+
+.lang-pill:hover {
+  background: var(--hover);
+  transform: translateY(-1px);
+}
+
+/* Main Content */
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.lift {
+  transition:
+    transform 0.2s cubic-bezier(0.2, 0.8, 0.2, 1.12),
+    box-shadow 0.2s ease;
+}
+
+.lift:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    inset 0 0 0 1px var(--line-strong),
+    var(--shadow-lift);
+}
+
+/* Hero Studio Card */
+.hero-card {
+  display: block;
+  padding: 12px 13px;
+  border-radius: var(--r2);
+  background:
+    radial-gradient(
+      120% 120% at 100% 0%,
+      rgba(246, 216, 107, 0.34),
+      transparent 58%
+    ),
+    radial-gradient(
+      100% 100% at 0% 100%,
+      rgba(209, 54, 13, 0.12),
+      transparent 60%
+    ),
+    var(--surface);
+  box-shadow: inset 0 0 0 1px var(--line-strong);
+}
+
+.hero-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.hero-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  border-radius: var(--pill);
+  background: var(--brand);
+  color: var(--on-brand);
+  font-weight: 600;
+  font-size: 11.5px;
+  line-height: 1;
+}
+
+.hero-card:hover .hero-cta {
+  background: var(--brand-hover);
+}
+
+.icon-arrow {
+  width: 12px;
+  height: 12px;
+}
+
+.hero-title {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 750;
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+}
+
+.hero-desc {
+  margin: 3px 0 0;
+  font-size: 12px;
+  color: var(--ink-70);
+}
+
+/* Section Label */
+.section-heading {
+  display: flex;
+  align-items: center;
+  padding: 1px 2px 0;
+}
+
+.eyebrow {
+  font: 600 10px/1.2 var(--f-mono);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-50);
+}
+
+/* 2x2 Quick-Launch Cards */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.launch-card {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 11px;
+  border-radius: 14px;
+  background: var(--surface);
+  box-shadow: inset 0 0 0 1px var(--line);
+}
+
+.card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 7px;
+}
+
+.card-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 8px;
+  color: #1e2340;
+}
+
+.card-icon svg {
+  width: 16px;
+  height: 16px;
+}
+
+.swatch-butter {
+  background: var(--butter);
+}
+
+.swatch-rose {
+  background: var(--rose);
+}
+
+.swatch-sky {
+  background: var(--sky);
+}
+
+.swatch-sage {
+  background: var(--sage);
+}
+
+.tag {
+  display: inline-block;
+  padding: 2.5px 7px;
+  border-radius: var(--pill);
+  font: 600 9.5px/1.1 var(--f-mono);
+  letter-spacing: 0.03em;
+  color: #1e2340;
+}
+
+.tag-brand {
+  background: var(--butter);
+}
+
+.tag-butter {
+  background: var(--butter);
+}
+
+.tag-rose {
+  background: var(--rose);
+}
+
+.tag-sky {
+  background: var(--sky);
+}
+
+.tag-sage {
+  background: var(--sage);
+}
+
+.card-title {
+  margin: 0;
+  font-size: 12.5px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.25;
+}
+
+.card-desc {
+  margin: 3px 0 0;
+  font-size: 11px;
+  line-height: 1.35;
+  color: var(--ink-70);
+}
+
+/* Image URL Helper */
+.helper-box {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 9px 10px;
+  border-radius: 13px;
+  background: var(--surface);
+  box-shadow: inset 0 0 0 1px var(--line);
+}
+
+.helper-row {
+  display: flex;
+  gap: 6px;
+}
+
+.helper-input {
+  flex: 1;
+  min-width: 0;
+  height: 30px;
+  padding: 0 9px;
+  border: 0;
+  border-radius: 8px;
+  background: var(--field);
+  color: var(--ink);
+  font: 400 11.5px/1 var(--f-ui);
+  box-shadow: inset 0 0 0 1px var(--line-strong);
+}
+
+.helper-input::placeholder {
+  color: var(--ink-50);
+}
+
+.helper-btn {
+  flex-shrink: 0;
+  height: 30px;
+  padding: 0 12px;
+  border: 0;
+  border-radius: 8px;
+  background: var(--brand);
+  color: var(--on-brand);
+  font: 600 11.5px/1 var(--f-ui);
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.helper-btn:hover {
+  background: var(--brand-hover);
+}
+
+.helper-error {
+  margin: 0;
+  font-size: 11px;
+  color: var(--brand);
+  font-weight: 500;
+}
+
+.helper-tip {
+  margin: 0;
+  font-size: 10.5px;
+  line-height: 1.35;
+  color: var(--ink-70);
+}
+
+/* Footer */
+.footer-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding-top: 2px;
+  font-size: 11px;
+  color: var(--ink-70);
+}
+
+.footer-bar a {
+  font-weight: 500;
+  transition: color 0.15s ease;
+}
+
+.footer-bar a:hover {
+  color: var(--brand);
+  text-decoration: underline;
+}
+
+.dot {
+  color: var(--ink-50);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 1ms !important;
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "extName": {
+    "message": "Angry Dance AI - AI 跳舞与拥抱视频生成器",
+    "description": "Extension name in Simplified Chinese (max 45 chars)."
+  },
+  "extShortName": {
+    "message": "Angry Dance",
+    "description": "Short extension name (max 12 chars)."
+  },
+  "extDescription": {
+    "message": "一键将照片变成爆款 AI 跳舞、狗狗宠物跳舞与 AI 拥抱视频。内置网页图片右键快捷生成与每日 AI 热门趋势雷达。",
+    "description": "Store-compliant manifest summary in Simplified Chinese (<= 132 chars)."
+  },
+  "actionTitle": {
+    "message": "Angry Dance AI — 照片转跳舞视频快捷启动器",
+    "description": "Toolbar icon tooltip in Simplified Chinese."
+  },
+  "contextMenuTitle": {
+    "message": "使用 Angry Dance AI 让这张照片跳起来",
+    "description": "Right-click context menu item shown on web images."
+  },
+  "headerBadge": {
+    "message": "AI 视频工作台"
+  },
+  "headerSubtitle": {
+    "message": "一键启动 AI 跳舞、萌宠动效与每日热梗雷达"
+  },
+  "heroTag": {
+    "message": "创作台"
+  },
+  "cardStudioTitle": {
+    "message": "Studio 创作工作台"
+  },
+  "cardStudioDesc": {
+    "message": "上传人像或角色照片，自由定制舞蹈动作与镜头表现"
+  },
+  "cardStudioCta": {
+    "message": "打开工作台"
+  },
+  "sectionEffects": {
+    "message": "热门特效与趋势雷达"
+  },
+  "cardDogTitle": {
+    "message": "狗狗与宠物跳舞 AI"
+  },
+  "cardDogDesc": {
+    "message": "让猫狗萌宠照片秒变魔性卡点跳舞短视频"
+  },
+  "cardDogTag": {
+    "message": "爆款"
+  },
+  "cardHugTitle": {
+    "message": "AI 温暖拥抱视频"
+  },
+  "cardHugDesc": {
+    "message": "将单人或双人照片自然驱动为温情拥抱短片"
+  },
+  "cardHugTag": {
+    "message": "温情"
+  },
+  "cardImg2VidTitle": {
+    "message": "图生视频工具"
+  },
+  "cardImg2VidDesc": {
+    "message": "单张静态图片一键生成电影级运镜与自然动态"
+  },
+  "cardImg2VidTag": {
+    "message": "工具"
+  },
+  "cardTrendsTitle": {
+    "message": "每日爆款 AI 热梗雷达"
+  },
+  "cardTrendsDesc": {
+    "message": "每日追踪 TikTok、Reels 与 Shorts 飙升 AI 视频玩法"
+  },
+  "cardTrendsTag": {
+    "message": "实时"
+  },
+  "quickImageLabel": {
+    "message": "图片链接直达生成"
+  },
+  "quickImagePlaceholder": {
+    "message": "粘贴网页图片链接 (https://...) 直达创作台"
+  },
+  "quickImageBtn": {
+    "message": "去生成"
+  },
+  "quickImageInvalid": {
+    "message": "请输入有效的 http:// 或 https:// 图片链接。"
+  },
+  "tipRightClick": {
+    "message": "提示：在任意网页图片上右键 → 选择「使用 Angry Dance AI 让这张照片跳起来」"
+  },
+  "footerHome": {
+    "message": "官方网站"
+  },
+  "footerEffects": {
+    "message": "全部特效"
+  },
+  "footerInvite": {
+    "message": "邀请得积分"
+  },
+  "footerPrivacy": {
+    "message": "隐私政策"
+  }
+}
