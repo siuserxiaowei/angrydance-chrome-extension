@@ -97,6 +97,9 @@
   "footerEffects": {
     "message": "All Effects"
   },
+  "footerTools": {
+    "message": "Free Tools"
+  },
   "footerInvite": {
     "message": "Free Credits"
   },

@@ -1,0 +1,109 @@
+{
+  "extName": {
+    "message": "Angry Dance AI - Hacer Bailar Fotos con IA",
+    "description": "Extension name in Spanish (max 45 chars)."
+  },
+  "extShortName": {
+    "message": "Angry Dance",
+    "description": "Short extension name (max 12 chars)."
+  },
+  "extDescription": {
+    "message": "Convierte fotos en videos virales de baile IA, mascotas bailando y abrazos IA en segundos. Lanzador rápido y menú contextual.",
+    "description": "Store-compliant manifest summary in Spanish (<= 132 chars)."
+  },
+  "actionTitle": {
+    "message": "Angry Dance AI — Lanzador de Videos de Baile con IA",
+    "description": "Toolbar icon tooltip in Spanish."
+  },
+  "contextMenuTitle": {
+    "message": "Hacer bailar esta foto con Angry Dance AI",
+    "description": "Right-click context menu item shown on web images."
+  },
+  "headerBadge": {
+    "message": "LANZADOR DE VIDEO IA"
+  },
+  "headerSubtitle": {
+    "message": "Baile IA en un clic, mascotas y radar de tendencias"
+  },
+  "heroTag": {
+    "message": "ESTUDIO"
+  },
+  "cardStudioTitle": {
+    "message": "Generador de Estudio"
+  },
+  "cardStudioDesc": {
+    "message": "Sube cualquier retrato o personaje y elige el baile"
+  },
+  "cardStudioCta": {
+    "message": "Abrir Estudio"
+  },
+  "sectionEffects": {
+    "message": "EFECTOS POPULARES Y RADAR"
+  },
+  "cardDogTitle": {
+    "message": "Baile de Perros y Mascotas IA"
+  },
+  "cardDogDesc": {
+    "message": "Convierte fotos de perros y gatos en clips de baile"
+  },
+  "cardDogTag": {
+    "message": "TOP"
+  },
+  "cardHugTitle": {
+    "message": "Video de Abrazo con IA"
+  },
+  "cardHugDesc": {
+    "message": "Anima fotos individuales o en pareja en un abrazo"
+  },
+  "cardHugTag": {
+    "message": "CÁLIDO"
+  },
+  "cardImg2VidTitle": {
+    "message": "Imagen a Video"
+  },
+  "cardImg2VidDesc": {
+    "message": "Movimiento cinematográfico a partir de una sola foto"
+  },
+  "cardImg2VidTag": {
+    "message": "IA"
+  },
+  "cardTrendsTitle": {
+    "message": "Radar Diario de Tendencias IA"
+  },
+  "cardTrendsDesc": {
+    "message": "Tendencias en vivo de TikTok, Reels y Shorts"
+  },
+  "cardTrendsTag": {
+    "message": "VIVO"
+  },
+  "quickImageLabel": {
+    "message": "LANZAR CON URL DE IMAGEN"
+  },
+  "quickImagePlaceholder": {
+    "message": "Pega la URL de la imagen (https://...)"
+  },
+  "quickImageBtn": {
+    "message": "Animar"
+  },
+  "quickImageInvalid": {
+    "message": "Introduce una URL de imagen válida con http:// o https://."
+  },
+  "tipRightClick": {
+    "message": "Consejo: Haz clic derecho en cualquier imagen → “Hacer bailar esta foto con Angry Dance AI”"
+  },
+  "footerHome": {
+    "message": "AngryDance.com"
+  },
+  "footerEffects": {
+    "message": "Efectos"
+  },
+  "footerTools": {
+    "message": "Herramientas"
+  },
+  "footerInvite": {
+    "message": "Créditos Gratis"
+  },
+  "footerPrivacy": {
+    "message": "Privacidad"
+  }
+}

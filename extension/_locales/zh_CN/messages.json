@@ -97,6 +97,9 @@
   "footerEffects": {
     "message": "全部特效"
   },
+  "footerTools": {
+    "message": "免费工具"
+  },
   "footerInvite": {
     "message": "邀请得积分"
   },

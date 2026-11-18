@@ -33,15 +33,18 @@
             </p>
           </div>
         </a>
-        <button
-          type="button"
-          id="lang-toggle"
+        <select
+          id="lang-select"
           class="lang-pill"
-          aria-label="Switch language between English and Chinese"
-          title="EN / 中文"
+          aria-label="Select extension interface language"
         >
-          中文
-        </button>
+          <option value="en">EN</option>
+          <option value="zh_CN">中文</option>
+          <option value="ja">日本語</option>
+          <option value="ko">한국어</option>
+          <option value="es">ES</option>
+          <option value="pt_BR">PT</option>
+        </select>
       </header>
 
       <main class="content">
@@ -237,6 +240,16 @@
           data-i18n="footerEffects"
         >
           All Effects
+        </a>
+        <span class="dot" aria-hidden="true">·</span>
+        <a
+          href="https://angrydance.com/tools?utm_source=chrome_extension"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-launch-link
+          data-i18n="footerTools"
+        >
+          Free Tools
         </a>
         <span class="dot" aria-hidden="true">·</span>
         <a

@@ -1,0 +1,109 @@
+{
+  "extName": {
+    "message": "Angry Dance AI - 写真からAIダンス動画生成",
+    "description": "Extension name in Japanese (max 45 chars)."
+  },
+  "extShortName": {
+    "message": "Angry Dance",
+    "description": "Short extension name (max 12 chars)."
+  },
+  "extDescription": {
+    "message": "1枚の写真から話題のAIダンス・犬猫ペットダンス・AIハグ動画を数秒で作成。右クリック画像起動＆毎日のトレンドレーダー搭載。",
+    "description": "Store-compliant manifest summary in Japanese (<= 132 chars)."
+  },
+  "actionTitle": {
+    "message": "Angry Dance AI — 写真からダンス動画ランチャー",
+    "description": "Toolbar icon tooltip in Japanese."
+  },
+  "contextMenuTitle": {
+    "message": "Angry Dance AI でこの写真を踊らせる",
+    "description": "Right-click context menu item shown on web images."
+  },
+  "headerBadge": {
+    "message": "AI 動画ランチャー"
+  },
+  "headerSubtitle": {
+    "message": "ワンクリックでAIダンス・ペット動画・トレンド確認"
+  },
+  "heroTag": {
+    "message": "スタジオ"
+  },
+  "cardStudioTitle": {
+    "message": "スタジオ生成ツール"
+  },
+  "cardStudioDesc": {
+    "message": "人物やキャラの写真をアップロードしてダンス生成"
+  },
+  "cardStudioCta": {
+    "message": "スタジオを開く"
+  },
+  "sectionEffects": {
+    "message": "人気エフェクト＆トレンド"
+  },
+  "cardDogTitle": {
+    "message": "犬＆ペットダンス AI"
+  },
+  "cardDogDesc": {
+    "message": "愛犬・愛猫の写真をかわいいダンス動画に変換"
+  },
+  "cardDogTag": {
+    "message": "人気"
+  },
+  "cardHugTitle": {
+    "message": "AI ハグ動画"
+  },
+  "cardHugDesc": {
+    "message": "1〜2枚の写真を温かいハグ動画へアニメーション化"
+  },
+  "cardHugTag": {
+    "message": "感動"
+  },
+  "cardImg2VidTitle": {
+    "message": "画像から動画生成"
+  },
+  "cardImg2VidDesc": {
+    "message": "1枚の静止画から映画のようなカメラモーションを生成"
+  },
+  "cardImg2VidTag": {
+    "message": "ツール"
+  },
+  "cardTrendsTitle": {
+    "message": "毎日の AI トレンドレーダー"
+  },
+  "cardTrendsDesc": {
+    "message": "TikTok・Reels・Shorts の急上昇AI動画を追跡"
+  },
+  "cardTrendsTag": {
+    "message": "LIVE"
+  },
+  "quickImageLabel": {
+    "message": "画像 URL クイック起動"
+  },
+  "quickImagePlaceholder": {
+    "message": "画像 URL (https://...) を貼り付けて起動"
+  },
+  "quickImageBtn": {
+    "message": "作成"
+  },
+  "quickImageInvalid": {
+    "message": "有効な http:// または https:// の画像 URL を入力してください。"
+  },
+  "tipRightClick": {
+    "message": "ヒント：Web上の画像を右クリック →「Angry Dance AI でこの写真を踊らせる」"
+  },
+  "footerHome": {
+    "message": "公式サイト"
+  },
+  "footerEffects": {
+    "message": "全エフェクト"
+  },
+  "footerTools": {
+    "message": "無料ツール"
+  },
+  "footerInvite": {
+    "message": "無料クレジット"
+  },
+  "footerPrivacy": {
+    "message": "プライバシー"
+  }
+}
