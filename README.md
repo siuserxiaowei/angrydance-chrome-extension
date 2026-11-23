@@ -26,10 +26,11 @@ Official open-source browser companion and public **CC BY 4.0** short-form AI vi
 
 1. **Right-Click Any Web Image to Animate:** Right-click an image on any webpage and select **"Make This Photo Dance with Angry Dance AI"** to pass the public image reference directly into [Angry Dance Studio](https://angrydance.com/).
 2. **One-Click Creative Toolbar Popup:** Instant launch cards for:
-   - [Angry Dance AI Filter](https://angrydance.com/effects/angry-dance)
-   - [Dog & Pet Dance AI](https://angrydance.com/effects/dog-dance-ai) & [Cat Dance AI](https://angrydance.com/effects/cat-dance-ai)
-   - [AI Hug Video Generator](https://angrydance.com/effects/ai-hug-video)
-   - [Custom Image-to-Video Studio](https://angrydance.com/tools/image-to-video)
+   - [Angry Dance AI Filter](https://angrydance.com/effects/angry-dance) & [Kling 2.6 Motion Control](https://angrydance.com/models/kling-2-6-motion-control)
+   - [GTA 6 AI Filter](https://angrydance.com/effects/gta-6-ai-filter) & [GTA 5 Goodbye AI](https://angrydance.com/effects/gta-5-goodbye-ai)
+   - [AI Christmas Dance](https://angrydance.com/effects/christmas-dance-ai) & [Dog & Pet Dance AI](https://angrydance.com/effects/dog-dance-ai)
+   - [Free Browser Tools & Credits](https://angrydance.com/free) (including [Free Video to GIF Converter](https://angrydance.com/tools/video-to-gif-converter))
+   - [LTX 2.5 Fast (Native Audio I2V)](https://angrydance.com/models/ltx-2-5-fast-i2v) & [Nano Banana 2.1](https://angrydance.com/models/nano-banana-2-1)
    - [Daily Viral AI Video Trend Radar](https://angrydance.com/trends)
 3. **Image URL Quick-Launch Helper:** Paste any public `http://` or `https://` image URL inside the popup to open the studio without downloading and re-uploading files first.
 4. **Minimal Permission Architecture:** Requests **only** `"contextMenus"`. Zero `<all_urls>` host permissions, zero injected content scripts, zero background browsing telemetry, and zero remote code execution.
@@ -48,16 +49,16 @@ Snapshot date: **`2026-11-18`** · Scanned formats: **`573`** · Single-photo el
 
 | Rank | Format Cluster | Category | 24h View Delta | Cumulative Views | Live Template |
 | :--- | :--- | :--- | ---: | ---: | :--- |
-| #1 | Gothic Vampire Chapel Transformation (`#vampirediaries`) | `photo-to-video` | +470,057 | 29,660,000 | [Try Workflow](https://angrydance.com/tools/image-to-video) |
+| #1 | Gothic Vampire Chapel Transformation (`#vampirediaries`) | `photo-to-video` | +470,057 | 29,660,000 | [Try Workflow](https://angrydance.com/effects/vampire-filter-ai) |
 | #2 | Surreal Miniature & Blister-Box Entrance Clips (`#creercette`) | `photo-to-video` | +851,624 | 8,660,000 | [Try Workflow](https://angrydance.com/effects/ai-action-figure-video) |
 | #3 | Hibidi Skibidi Beat-Sync Meme Clip (`#hibidiskibidi`) | `photo-to-video` | +829,751 | 2,450,000 | [Try Workflow](https://angrydance.com/effects/angry-dance) |
-| #4 | Open-World Action Loading Screen Intro (`#grandtheftauto6`) | `photo-to-video` | +734,134 | 734,000 | [Try Workflow](https://angrydance.com/tools/image-to-video) |
+| #4 | Open-World Action Loading Screen Intro (`#grandtheftauto6`) | `photo-to-video` | +734,134 | 9,220,000 | [Try Workflow](https://angrydance.com/effects/gta-6-ai-filter) |
 | #5 | Wassup Bass-Drop Groove Transition (`#minutewassup`) | `photo-to-video` | +702,747 | 2,960,000 | [Try Workflow](https://angrydance.com/effects/give-it-all-to-me-ai) |
 | #6 | Savanna Lion Riding Video (`#lionriding`) | `photo-to-video` | +592,875 | 3,310,000 | [Try Workflow](https://angrydance.com/effects/lion-riding-ai) |
-| #7 | Stadium Goal Celebration Highlight (`#football`) | `photo-to-video` | +237,082 | 36,500,000 | [Try Workflow](https://angrydance.com/tools/image-to-video) |
+| #7 | Stadium Goal Celebration Highlight (`#football`) | `photo-to-video` | +237,082 | 36,500,000 | [Try Workflow](https://angrydance.com/effects/ai-football-goal) |
 | #8 | Colored Sweater B&W Portrait (`#coloredsweater`) | `photo-restyle` | +537,179 | 1,950,000 | [Try Workflow](https://angrydance.com/effects/colored-sweater-ai) |
 | #9 | Self-Embrace Healing Sketch (Abrazo Propio) (`#timismo`) | `photo-restyle` | +401,050 | 3,390,000 | [Try Workflow](https://angrydance.com/effects/self-hug-sketch-ai) |
-| #10 | Holiday Sweater & Tangled-Lights Pet Portrait (`#christmas`) | `dance-motion` | +243,790 | 2,410,000 | [Try Workflow](https://angrydance.com/effects/christmas-pet-ai) |
+| #10 | Holiday Sweater & Deck the Halls Dance (`#christmas`) | `dance-motion` | +243,790 | 10,330,000 | [Try Workflow](https://angrydance.com/effects/christmas-dance-ai) |
 
 > Explore all 45 ranked clusters with live category filters and instant studio launch at **<https://angrydance.com/trends>**.
 
@@ -73,9 +74,9 @@ Source: [Angry Dance 2026 Viral AI Photo-to-Video Trend Radar](https://angrydanc
 
 本仓库包含 **[Angry Dance（愤怒之舞 AI）](https://angrydance.com/zh)** 的开源 Manifest V3 浏览器扩展源码（`extension/`）以及遵循 **CC BY 4.0** 协议公开的短视频 AI 图生视频热梗数据集（`dataset/public-trends-2026-11.json`）。
 
-- **在线工作台（中英双语）：** <https://angrydance.com/zh>
-- **招牌愤怒之舞特效：** <https://angrydance.com/effects/angry-dance>
-- **狗狗与猫咪跳舞特效：** <https://angrydance.com/effects/dog-dance-ai> · <https://angrydance.com/effects/cat-dance-ai>
-- **AI 温暖拥抱视频：** <https://angrydance.com/effects/ai-hug-video>
-- **自定义图生视频工具：** <https://angrydance.com/tools/image-to-video>
+- **在线工作台（中英西葡四语）：** <https://angrydance.com/zh>
+- **招牌愤怒之舞 & GTA 6 滤镜：** <https://angrydance.com/effects/angry-dance> · <https://angrydance.com/effects/gta-6-ai-filter>
+- **AI 圣诞热舞 & 萌宠跳舞：** <https://angrydance.com/effects/christmas-dance-ai> · <https://angrydance.com/effects/dog-dance-ai>
+- **免费本地微工具（视频转 GIF / 抽帧 / BPM）：** <https://angrydance.com/free> · <https://angrydance.com/tools/video-to-gif-converter>
+- **热门模型通道（Kling 2.6 / LTX 2.5 / Nano Banana 2.1）：** <https://angrydance.com/models/kling-2-6-motion-control> · <https://angrydance.com/models/ltx-2-5-fast-i2v> · <https://angrydance.com/models/nano-banana-2-1>
 - **每日 AI 爆款热梗雷达：** <https://angrydance.com/trends>
