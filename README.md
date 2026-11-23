@@ -8,7 +8,9 @@ Official open-source browser companion and public **CC BY 4.0** short-form AI vi
 
 - **Live Documentation & Dataset Showcase:** <https://siuserxiaowei.github.io/angrydance-chrome-extension/>
 - **Angry Dance Web Studio (EN / 中文):** <https://angrydance.com/> · <https://angrydance.com/zh>
+- **Free Creator Tools Hub ($0 Browser Utilities):** <https://angrydance.com/tools>
 - **Live Interactive AI Trend Radar:** <https://angrydance.com/trends>
+- **2026 Comparison Guide:** [Best AI Angry Dance & Meme Video Generators (2026)](https://angrydance.com/blog/best-ai-angry-dance-meme-video-generators-2026)
 
 ---
 
@@ -28,8 +30,8 @@ Official open-source browser companion and public **CC BY 4.0** short-form AI vi
 2. **One-Click Creative Toolbar Popup:** Instant launch cards for:
    - [Angry Dance AI Filter](https://angrydance.com/effects/angry-dance) & [Kling 2.6 Motion Control](https://angrydance.com/models/kling-2-6-motion-control)
    - [GTA 6 AI Filter](https://angrydance.com/effects/gta-6-ai-filter) & [GTA 5 Goodbye AI](https://angrydance.com/effects/gta-5-goodbye-ai)
-   - [AI Christmas Dance](https://angrydance.com/effects/christmas-dance-ai) & [Dog & Pet Dance AI](https://angrydance.com/effects/dog-dance-ai)
-   - [Free Browser Tools & Credits](https://angrydance.com/free) (including [Free Video to GIF Converter](https://angrydance.com/tools/video-to-gif-converter))
+   - [AI Christmas Dance](https://angrydance.com/effects/christmas-dance-ai), [Dog Dance AI](https://angrydance.com/effects/dog-dance-ai) & [Cat Dance AI](https://angrydance.com/effects/cat-dance-ai)
+   - [Free Creator Tools Hub](https://angrydance.com/tools) — BPM Beat-Sync Calculator, Crisp Video Frame Extractor, and Watermark-Free Meme GIF Maker (plus [Free Credits](https://angrydance.com/free))
    - [LTX 2.5 Fast (Native Audio I2V)](https://angrydance.com/models/ltx-2-5-fast-i2v) & [Nano Banana 2.1](https://angrydance.com/models/nano-banana-2-1)
    - [Daily Viral AI Video Trend Radar](https://angrydance.com/trends)
 3. **Image URL Quick-Launch Helper:** Paste any public `http://` or `https://` image URL inside the popup to open the studio without downloading and re-uploading files first.
@@ -68,6 +70,12 @@ Snapshot date: **`2026-11-18`** · Scanned formats: **`573`** · Single-photo el
 Source: [Angry Dance 2026 Viral AI Photo-to-Video Trend Radar](https://angrydance.com/trends) by [Angry Dance](https://angrydance.com/) (CC BY 4.0).
 ```
 
+### Related Resources & Creator Partner Program
+
+- **2026 Benchmark & Buyer's Guide:** [Best AI Angry Dance & Meme Video Generators (2026)](https://angrydance.com/blog/best-ai-angry-dance-meme-video-generators-2026)
+- **Free Creator Tools Hub:** [BPM Beat-Sync Calculator, Crisp Video Frame Extractor & Watermark-Free Meme GIF Maker](https://angrydance.com/tools)
+- **Affiliate Program (30% Commission):** [Join the Angry Dance Creator Affiliate Program](https://angrydance.com/affiliates)
+
 ---
 
 ## 4. 中文简介（Angry Dance 官方开源扩展与趋势数据集）
@@ -76,7 +84,8 @@ Source: [Angry Dance 2026 Viral AI Photo-to-Video Trend Radar](https://angrydanc
 
 - **在线工作台（中英西葡四语）：** <https://angrydance.com/zh>
 - **招牌愤怒之舞 & GTA 6 滤镜：** <https://angrydance.com/effects/angry-dance> · <https://angrydance.com/effects/gta-6-ai-filter>
-- **AI 圣诞热舞 & 萌宠跳舞：** <https://angrydance.com/effects/christmas-dance-ai> · <https://angrydance.com/effects/dog-dance-ai>
-- **免费本地微工具（视频转 GIF / 抽帧 / BPM）：** <https://angrydance.com/free> · <https://angrydance.com/tools/video-to-gif-converter>
+- **AI 圣诞热舞 & 萌宠跳舞（狗狗 / 猫咪）：** <https://angrydance.com/effects/christmas-dance-ai> · <https://angrydance.com/effects/dog-dance-ai> · <https://angrydance.com/effects/cat-dance-ai>
+- **免费创作者工具箱（BPM 卡点计算器 / 高清视频抽帧 / 无水印表情包 GIF）：** <https://angrydance.com/tools> · <https://angrydance.com/free>
 - **热门模型通道（Kling 2.6 / LTX 2.5 / Nano Banana 2.1）：** <https://angrydance.com/models/kling-2-6-motion-control> · <https://angrydance.com/models/ltx-2-5-fast-i2v> · <https://angrydance.com/models/nano-banana-2-1>
 - **每日 AI 爆款热梗雷达：** <https://angrydance.com/trends>
+- **2026 横评指南 & 创作者联盟（30% 分成）：** <https://angrydance.com/blog/best-ai-angry-dance-meme-video-generators-2026> · <https://angrydance.com/affiliates>
