@@ -29,6 +29,8 @@ Official open-source browser companion and public **CC BY 4.0** short-form AI vi
 1. **Right-Click Any Web Image to Animate:** Right-click an image on any webpage and select **"Make This Photo Dance with Angry Dance AI"** to pass the public image reference directly into [Angry Dance Studio](https://angrydance.com/).
 2. **One-Click Creative Toolbar Popup:** Instant launch cards for:
    - [Angry Dance AI Filter](https://angrydance.com/effects/angry-dance) & [Kling 2.6 Motion Control](https://angrydance.com/models/kling-2-6-motion-control)
+   - [Jensen Huang Style Leather Jacket CEO Stage](https://angrydance.com/effects/leather-jacket-ceo-stage-ai), [Boss Is Back Entrance](https://angrydance.com/effects/boss-is-back-entrance-ai), [Night Market VIP Walk](https://angrydance.com/effects/night-market-vip-walk-ai) & [1-Click Leather Jacket Photo Filter](https://angrydance.com/effects/leather-jacket-keynote-photo-ai)
+   - [Stadium Kiss Cam Prank AI](https://angrydance.com/effects/stadium-kiss-cam-prank-ai) & [Nov 2026 Jensen Huang AI Meme Guide](https://angrydance.com/blog/jensen-huang-ai-meme-trend-2026)
    - [GTA 6 AI Filter](https://angrydance.com/effects/gta-6-ai-filter) & [GTA 5 Goodbye AI](https://angrydance.com/effects/gta-5-goodbye-ai)
    - [AI Christmas Dance](https://angrydance.com/effects/christmas-dance-ai), [Dog Dance AI](https://angrydance.com/effects/dog-dance-ai) & [Cat Dance AI](https://angrydance.com/effects/cat-dance-ai)
    - [Free Creator Tools Hub](https://angrydance.com/tools) — BPM Beat-Sync Calculator, Crisp Video Frame Extractor, and Watermark-Free Meme GIF Maker (plus [Free Credits](https://angrydance.com/free))
@@ -84,8 +86,9 @@ Source: [Angry Dance 2026 Viral AI Photo-to-Video Trend Radar](https://angrydanc
 
 - **在线工作台（中英西葡四语）：** <https://angrydance.com/zh>
 - **招牌愤怒之舞 & GTA 6 滤镜：** <https://angrydance.com/effects/angry-dance> · <https://angrydance.com/effects/gta-6-ai-filter>
+- **2026.11 黄仁勋同款黑皮衣热梗专题（本人自拍合规版）：** [黑皮衣巡演登台](https://angrydance.com/effects/leather-jacket-ceo-stage-ai) · [霸总回宫进场](https://angrydance.com/effects/boss-is-back-entrance-ai) · [黑皮衣逛夜市](https://angrydance.com/effects/night-market-vip-walk-ai) · [一键换黑皮衣照](https://angrydance.com/effects/leather-jacket-keynote-photo-ai) · [球场 Kiss Cam](https://angrydance.com/effects/stadium-kiss-cam-prank-ai) · [热点拆解指南](https://angrydance.com/zh/blog/jensen-huang-ai-meme-trend-2026)
 - **AI 圣诞热舞 & 萌宠跳舞（狗狗 / 猫咪）：** <https://angrydance.com/effects/christmas-dance-ai> · <https://angrydance.com/effects/dog-dance-ai> · <https://angrydance.com/effects/cat-dance-ai>
-- **免费创作者工具箱（BPM 卡点计算器 / 高清视频抽帧 / 无水印表情包 GIF）：** <https://angrydance.com/tools> · <https://angrydance.com/free>
+- **免费创作者工具箱（BPM 卡点计算器 / 高清视频抽帧 / 无水印表情包 GIF / 视频转 GIF）：** <https://angrydance.com/tools> · <https://angrydance.com/tools/video-to-gif-converter> · <https://angrydance.com/free>
 - **热门模型通道（Kling 2.6 / LTX 2.5 / Nano Banana 2.1）：** <https://angrydance.com/models/kling-2-6-motion-control> · <https://angrydance.com/models/ltx-2-5-fast-i2v> · <https://angrydance.com/models/nano-banana-2-1>
 - **每日 AI 爆款热梗雷达：** <https://angrydance.com/trends>
 - **2026 横评指南 & 创作者联盟（30% 分成）：** <https://angrydance.com/blog/best-ai-angry-dance-meme-video-generators-2026> · <https://angrydance.com/affiliates>
